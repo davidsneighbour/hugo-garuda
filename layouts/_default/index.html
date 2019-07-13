@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ print "<!-- _default/list.html -->" | safeHTML }}
+  {{ print "<!-- _default/index.html -->" | safeHTML }}
 
   {{ range $elem_index, $value := where site.RegularPages "Type" "in" site.Params.mainSections }}
   <article class="{{ if eq $elem_index 0 }}first{{ end }}"{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
@@ -7,7 +7,7 @@
     <header class="title">
       <h2 class="entry-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </h2>      
+      </h2>
       {{ partial "content/meta-top.html" . }}
     </header>
     {{ partial "content/content.html" . }}
