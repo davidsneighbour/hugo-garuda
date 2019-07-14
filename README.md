@@ -1,2 +1,5 @@
 # dnb-hugo-garuda
-An opinionated and colourful theme for Hugo.
+
+An opinionated and colourful weblog theme for Hugo.
+
+
