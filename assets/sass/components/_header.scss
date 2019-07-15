@@ -4,6 +4,13 @@
         text-align: center;
         background-image: url("/header-201906.jpg");
         background-position: left;
+        transition: all .8s ease;
+
+        &:hover {
+            /*filter: blur(2px) hue-rotate(90deg) contrast(200%) sepia(60%);*/
+            filter: hue-rotate(230deg) contrast(300%) sepia(40%);
+            transition: all .8s ease;
+        }
 
         @include media-breakpoint-up(md){
             background-position: center;
