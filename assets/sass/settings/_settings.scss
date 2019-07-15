@@ -23,7 +23,7 @@ $dark: theme-color("text");
 $font-size-base: 1rem;
 $blockquote-font-size: $font-size-base;
 $link-color: darken($primary, 20%);
-$link-hover-color: $primary;
+$link-hover-color: darken($link-color, 10%);
 $font-weight-lighter:         200;
 $font-weight-light:           300;
 $font-weight-normal:          400;
