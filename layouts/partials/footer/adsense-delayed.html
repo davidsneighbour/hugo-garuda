@@ -1,4 +1,5 @@
-{{ with .Site.Params.google.adclientid }}
+{{ if (.HasShortcode "adsense-ad") }}
+{{ with $.Site.Params.google.adclientid }}
 <script>
 function googleAdClientLoader() {
     var element = document.createElement("script");
@@ -14,4 +15,5 @@ if (window.addEventListener){
 }
 (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "{{ . }}"});
 </script>
+{{ end }}
 {{ end }}
