@@ -25,4 +25,7 @@ resources:
       name: "name"
       title: "title"
 ogtype: "article"
+
+schema:
+    - type: "BlogPost*|NewsArticle|Article"
 ---
