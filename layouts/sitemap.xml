@@ -4,7 +4,7 @@ Template for sitemap
 - see https://gohugo.io/templates/sitemap-template/
 */}}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{- range .Data.Pages -}}
+  {{- range .Site.RegularPages -}}
     {{ if not .Params.robotsdisallow }}
       <url>
         <loc>{{ .Permalink }}</loc>
