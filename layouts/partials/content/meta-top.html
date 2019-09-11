@@ -2,7 +2,7 @@
 {{ else }}
   <div class="meta">
     <div class="row">
-      <div class="col-md-9 is--taglist">
+      <div class="col-md-8 is--taglist">
         {{ with .Page.Params.tags }}
           <span class="icon" aria-hidden="true">
             {{ partialCached "icons/tags.svg" . }}
@@ -13,7 +13,7 @@
           {{ end }}
         {{ end }}
       </div>
-      <span class="col-md-3 text-sm-left text-xs-left text-md-right">
+      <span class="col-md-4 text-sm-left text-xs-left text-md-right">
         <time class="post-date updated" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">
           <span class="icon" aria-hidden="true">
             {{ partialCached "icons/calendar-alt.svg" . }}
