@@ -15,7 +15,12 @@ jQuery(document).ready(function ($) {
   });
   jQuery('#back-to-top').on('click', function (event) {
       event.preventDefault();
-      jQuery('html, body').animate({scrollTop: 0}, 1000, 'swing');
+      //jQuery('html, body').animate({scrollTop: 0}, 1000, 'swing');
+      window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth'
+      });
       return false;
   });
 
