@@ -15,16 +15,19 @@
       {{ partial "content/meta-top.html" . }}
     </header>
     {{ partial "content/content.html" . }}
-    <script src="https://utteranc.es/client.js"
-            repo="davidsneighbour/samui-samui.de.comments"
-            issue-term="pathname"
-            label="💬"
-            theme="github-dark-orange"
-            crossorigin="anonymous"
-            async>
-    </script>
+    {{ if (not (isset .Params "show_comments")) | or (eq .Params.show_comments "true") }}
+      <script src="https://utteranc.es/client.js"
+              repo="davidsneighbour/samui-samui.de.comments"
+              issue-term="pathname"
+              label="💬"
+              theme="github-dark-orange"
+              crossorigin="anonymous"
+              defer
+              async>
+      </script>
+    {{ end }}
   	{{ partial "pagination/single" . }}
-  	{{ partial "tools/sharebuttons" . }}	
-  	{{ partial "tools/related" . }}		
+  	{{ partial "tools/sharebuttons" . }}
+  	{{ partial "tools/related" . }}
   </article>
 {{ end }}

@@ -21,6 +21,10 @@ leute:
 author: 
     name: Patrick Kollitsch
     homepage: https://kollitsch.de
+    
+# set to false to hide comments on this page
+# remove this if you want to show comments for less clutter
+show_comments = true
 
 # tbd.
 type: post|page
