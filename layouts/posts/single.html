@@ -15,7 +15,7 @@
       {{ partial "content/meta-top.html" . }}
     </header>
     {{ partial "content/content.html" . }}
-    {{ if (not (isset .Params "show_comments")) | or (eq .Params.show_comments "true") }}
+    {{ if (not (isset .Params "hide_comments")) | or (eq .Params.hide_comments "false") }}
       <script src="https://utteranc.es/client.js"
               repo="davidsneighbour/samui-samui.de.comments"
               issue-term="pathname"
@@ -27,7 +27,11 @@
       </script>
     {{ end }}
   	{{ partial "pagination/single" . }}
-  	{{ partial "tools/sharebuttons" . }}
-  	{{ partial "tools/related" . }}
+    {{ if (not (isset .Params "hide_sharebuttons")) | or (eq .Params.hide_sharebuttons "false") }}
+  	  {{ partial "tools/sharebuttons" . }}
+    {{ end }}
+    {{ if (not (isset .Params "hide_related")) | or (eq .Params.hide_related "false") }}
+  	  {{ partial "tools/related" . }}
+    {{ end }}
   </article>
 {{ end }}

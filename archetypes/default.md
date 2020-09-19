@@ -24,7 +24,9 @@ author:
     
 # set to false to hide comments on this page
 # remove this if you want to show comments for less clutter
-show_comments = true
+hide_comments = false
+hide_sharebuttons = false
+hide_related = false
 
 # tbd.
 type: post|page
