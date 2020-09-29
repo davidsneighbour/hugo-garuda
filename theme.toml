@@ -1,5 +1,5 @@
-name = "Dnb Hugo Garuda"
-license = "Apache 2.0"
+name = "DNB Hugo Garuda"
+license = "MIT"
 licenselink = "https://github.com/davidsneighbour/dnb-hugo-garuda/blob/master/LICENSE"
 description = "An opinionated and colourful theme for Hugo."
 homepage = "https://github.com/davidsneighbour/dnb-hugo-garuda"
