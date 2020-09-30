@@ -102,7 +102,7 @@
     "sass": "1.26.11",
     "sass-loader": "10.0.2",
     "selenium-server": "3.141.59",
-    "stylelint": "13.7.1",
+    "stylelint": "13.7.2",
     "stylelint-config-standard": "20.0.0",
     "textlint": "11.7.6",
     "textlint-plugin-html": "0.2.0",
