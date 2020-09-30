@@ -1,5 +1,6 @@
-.social-media-buttons {
+/* stylelint-disable at-rule-no-unknown */
 
+.social-media-buttons {
   .btn-facebook {
     @include button-variant(#3b5998, #3b5998);
   }
@@ -15,5 +16,4 @@
   .btn-twitter {
     @include button-variant(#1da1f2, #1da1f2);
   }
-
 }
