@@ -2,43 +2,16 @@ const path = require('path');
 const webpack = require('webpack');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
-const fs = require('fs');
-
-class MetaInfoPlugin {
-  constructor(options) {
-    this.options = { filename: 'meta.json', ...options };
-  }
-
-  apply(compiler) {
-    compiler.hooks.done.tap(this.constructor.name, (stats) => {
-      const metaInfo = {
-        // add any other information if necessary
-        hash: stats.hash,
-      };
-      const json = JSON.stringify(metaInfo);
-      return new Promise((resolve, reject) => {
-        fs.writeFile(this.options.filename, json, 'utf8', (error) => {
-          if (error) {
-            reject(error);
-            return;
-          }
-          resolve();
-        });
-      });
-    });
-  }
-}
-
 module.exports = {
   mode: 'production',
   target: 'web',
   entry: {
-    main: './javascript/main.js',
+    main: './assets/js/script.js',
   },
   output: {
-    path: path.resolve(__dirname, './public/theme/assets/scripts/'),
-    publicPath: '/theme/assets/scripts/build.[hash].js',
-    filename: 'build.[hash].js',
+    path: path.resolve(__dirname, './assets/'),
+    publicPath: '/assets/theme.js',
+    filename: 'theme.js',
   },
   module: {
     rules: [
@@ -72,7 +45,7 @@ module.exports = {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]',
+          name: '[name].[ext]',
         },
       },
       // this will apply to both plain `.scss` files
@@ -98,7 +71,6 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new MetaInfoPlugin({ filename: './public/theme/assets/scripts/meta.json' }),
   ],
 };
 
