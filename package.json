@@ -28,9 +28,9 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "release": "standard-version --release-as patch -a -t \"\" ",
-    "release-next": "standard-version --release-as minor -a -t \"\"",
-    "release-major": "standard-version --release-as major -a -t \"\"",
+    "release": "standard-version --release-as patch -a",
+    "release-next": "standard-version --release-as minor -a",
+    "release-major": "standard-version --release-as major -a",
     "stylelint": "stylelint assets/sass/",
     "stylelint-fix": "stylelint assets/sass/ --fix"
   },
