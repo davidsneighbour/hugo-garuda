@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-garuda",
-  "version": "2020.0.0",
+  "version": "2020.0.2",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -28,11 +28,9 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "release": "standard-version --release-as patch -a -t \"\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"\" && ./bin/release-hook-postrelease.sh",
-    "css": "node-sass -q --include-path node_modules --output-style compressed --precision 6 assets/sass/theme.scss -o assets/ ",
-    "postcss": "postcss assets/theme.css -r",
+    "release": "standard-version --release-as patch -a -t \"\" ",
+    "release-next": "standard-version --release-as minor -a -t \"\"",
+    "release-major": "standard-version --release-as major -a -t \"\"",
     "stylelint": "stylelint assets/sass/",
     "stylelint-fix": "stylelint assets/sass/ --fix"
   },
@@ -45,7 +43,6 @@
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
-    "node-sass": "4.14.1",
     "pixrem": "5.0.0",
     "postcss": "8.1.1",
     "postcss-cli": "^8.0.0",
@@ -58,12 +55,6 @@
     "webpack-cli": "3.3.12"
   },
   "standard-version": {
-    "scripts": {
-      "prerelease": "./bin/release-hook-prerelease.sh",
-      "postbump": "./bin/release-hook-postbump.sh",
-      "postcommit": "./bin/release-hook-postcommit.sh",
-      "posttag": "./bin/release-hook-posttag.sh"
-    },
     "skip": {
       "changelog": true
     },
@@ -83,18 +74,6 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "postcss": {
-    "plugins": {
-      "precss": {},
-      "autoprefixer": {
-        "flexbox": true
-      },
-      "pixrem": {},
-      "cssnano": {
-        "preset": "default"
-      }
-    }
-  },
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
