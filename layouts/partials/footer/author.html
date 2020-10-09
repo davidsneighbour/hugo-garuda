@@ -1,14 +1,14 @@
-<footer id="authorinfo">
+{{ with .Site.GetPage "/sitewide/authorfooter" }}
+<aside id="authorinfo">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        {{ with .Site.GetPage "page" "sitewide/authorfooter.md" }}
-          <div id="authorfooter">
-            <h3>{{ .Title }}</h3>
-            {{ .Content }}
-          </div>
-        {{ end }}       
+        <div id="authorfooter">
+          <h3>{{ .Title }}</h3>
+          {{ .Content }}
+        </div>
       </div>
     </div>
   </div>
-</footer>
+</aside>
+{{ end }}
