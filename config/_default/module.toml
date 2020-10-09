@@ -1,0 +1,3 @@
+[[imports]]
+path = "github.com/davidsneighbour/dnb-hugo/packages/shortcodes"
+disabled = false
