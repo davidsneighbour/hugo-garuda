@@ -1,0 +1,13 @@
+[params]
+[params.dnb]
+################################################################################
+# DNB Hugo Garuda settings
+################################################################################
+# theme selection.
+# this slug is used to create headers and add custom files to the pipelines to
+# create your individualised theme setup.
+theme_slug="samui-samui"
+# Add your custom javascript files to the js creation pipe. only filename is
+# allowed in this parameter. The file needs to be in the folder `/assets/js/` in
+# your root folder.
+javascript = "local-changes.js"

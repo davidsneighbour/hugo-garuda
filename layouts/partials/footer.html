@@ -1,4 +1,4 @@
-{{ partial "footer/tagcloud.html" . }}  
+{{ partial "footer/tagcloud.html" . }}
 {{ partialCached "footer/copyright.html" . }}
 {{ partial "footer/debugging.html" . }}
 {{ partialCached "footer/finisher.html" . }}
@@ -7,3 +7,6 @@
 {{ end }}
 {{ partialCached "footer/google-analytics-delayed.html" . }}
 {{ partialCached "footer/adsense-delayed.html" . }}
+{{ partial "structured-data/organisation" . }}
+{{ partial "structured-data/person" . }}
+{{ partial "structured-data/sitesearch" . }}
