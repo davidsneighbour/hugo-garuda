@@ -26,7 +26,7 @@
     }
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --progress",
     "release": "standard-version --release-as patch -a",
     "release-next": "standard-version --release-as minor -a",
     "release-major": "standard-version --release-as major -a",
@@ -51,7 +51,7 @@
     "stylelint-config-standard": "20.0.0",
     "vue-loader": "15.9.3",
     "webpack": "4.44.2",
-    "webpack-cli": "3.3.12"
+    "webpack-cli": "4.0.0"
   },
   "standard-version": {
     "skip": {
