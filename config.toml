@@ -11,3 +11,13 @@ theme_slug="samui-samui"
 # allowed in this parameter. The file needs to be in the folder `/assets/js/` in
 # your root folder.
 javascript = "local-changes.js"
+# sidebar setup
+[params.dnb.sidebar]
+enabled = true
+items = [ "author", "archive", "recent", "social" ]
+[params.dnb.sidebar.author]
+content = "authorfooter"
+[params.dnb.sidebar.recent]
+limit = 5
+[params.dnb.sidebar.social]
+[params.dnb.sidebar.archive]

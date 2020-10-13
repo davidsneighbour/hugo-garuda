@@ -11,20 +11,17 @@
     {{ partial "header" . }}
     <main id="content" class="container pt-3">
       <div id="contentcolumn" class="row">
-        <div id="maincolumn" class="col-lg-8 col-sm-12 col">
+        {{ $contentColumnClasses := "col" }}
+        {{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true )) }}
+          {{ $contentColumnClasses := "col-lg-8 col-sm-12 col" }}
+        {{ end }}
+        <div id="maincolumn" class="{{ $contentColumnClasses }}">
           {{ block "main" . }}{{ end }}
         </div>
-        {{ block "sidebar" . }}
-          <div id="sidebar" class="col-lg-4 col-sm-12 col">
-            {{ partialCached "sidebar/widget-author.html" . }}
-            {{ partialCached "sidebar/widget-archive.html" . }}
-            {{ partial "sidebar/widget-recent.html" . }}
-            {{ partialCached "sidebar/widget-socialmedia.html" . }}
-          </div>
-        {{ end }}
+        {{ partial "sidebar" . }}
       </div>
     </main>
-    {{ partial "footer" . }}  
+    {{ partial "footer" . }}
   </body>
 </html>
 

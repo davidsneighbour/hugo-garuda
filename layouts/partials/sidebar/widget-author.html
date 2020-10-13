@@ -1,4 +1,4 @@
-{{ with .Site.GetPage "sitewide/authorfooter.md" }}
+{{ with $.Site.GetPage "sitewide/authorfooter.md" }}
 <aside class="card mb-3">
 	<img src="{{ .Params.Image }}" style="width:100%;height:auto;" alt="{{ htmlUnescape .Params.Imagetitle }}" width="350" class="card-img-top">
 	<div class="card-body">
