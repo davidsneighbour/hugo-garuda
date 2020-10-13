@@ -17,8 +17,8 @@ jQuery(document).ready(function ($) {
       event.preventDefault();
       //jQuery('html, body').animate({scrollTop: 0}, 1000, 'swing');
       window.scroll({
-        top: 0, 
-        left: 0, 
+        top: 0,
+        left: 0,
         behavior: 'smooth'
       });
       return false;
@@ -36,6 +36,19 @@ jQuery(document).ready(function ($) {
     var $date1 = moment($this.data('from'));
     var $date2 = moment(new Date());
     $this.text(parseInt($date2.diff($date1, 'months')));
+  });
+
+  // @todo make this a part of the shortcodes module
+  jQuery('.is--datediff').each(function(item, index){
+      var $this = $(this);
+      var $date1 = moment($this.data('date'));
+      var $date2 = moment(new Date());
+      var $type = $this.data('type');
+      if ($type === 'months'){
+          $this.text(parseInt($date2.diff($date1, 'months')));
+      } else {
+          $this.text($date2.diff($date1, 'days')+1);
+      }
   });
 
   // cookieconsent
