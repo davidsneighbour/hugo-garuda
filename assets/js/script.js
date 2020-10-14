@@ -38,7 +38,6 @@ jQuery(document).ready(function ($) {
     $this.text(parseInt($date2.diff($date1, 'months')));
   });
 
-  // @todo make this a part of the shortcodes module
   jQuery('.is--datediff').each(function(item, index){
       var $this = $(this);
       var $date1 = moment($this.data('date'));

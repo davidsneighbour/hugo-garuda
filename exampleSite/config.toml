@@ -18,6 +18,6 @@ items = [ "author", "archive", "recent", "social" ]
 [params.dnb.sidebar.author]
 content = "authorfooter"
 [params.dnb.sidebar.recent]
-limit = 5
+limit = 7
 [params.dnb.sidebar.social]
 [params.dnb.sidebar.archive]

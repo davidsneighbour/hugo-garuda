@@ -6,8 +6,8 @@ We release patches for security vulnerabilities in the following supported versi
 
 | Version | Supported |
 | :---: | :----------------: |
-| 2020.2 | :heavy_check_mark: |
-| 2020.1 | :x: |
+| 2020.1 | :heavy_check_mark: |
+| 2020.0 | :x: |
 
 ## Reporting a Vulnerability
 

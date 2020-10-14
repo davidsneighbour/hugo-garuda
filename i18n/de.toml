@@ -1,23 +1,26 @@
+[recent_entries_sidebar]
+other = "Neueste Einträge"
+
 [month_long_1 ]
-other = "January"
+other = "Januar"
 
 [month_long_2 ]
-other = "February"
+other = "Februar"
 
 [month_long_3 ]
-other = "March"
+other = "März"
 
 [month_long_4 ]
 other = "April"
 
 [month_long_5 ]
-other = "May"
+other = "Mai"
 
 [month_long_6 ]
-other = "June"
+other = "Juni"
 
 [month_long_7 ]
-other = "July"
+other = "Juli"
 
 [month_long_8 ]
 other = "August"
@@ -26,10 +29,10 @@ other = "August"
 other = "September"
 
 [month_long_10]
-other = "October"
+other = "Oktober"
 
 [month_long_11]
 other = "November"
 
 [month_long_12]
-other = "December"
+other = "Dezember"
