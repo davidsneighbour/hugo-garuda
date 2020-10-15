@@ -1,0 +1,77 @@
+// Bootstrap initialization
+@import 'libs/bootstrap/scss/functions';
+@import 'libs/bootstrap/scss/mixins';
+
+// DNB theme setup
+@import 'scss/settings/colors';
+@import 'scss/settings/settings';
+@import 'scss/settings/fonts';
+
+// Bootstrap
+@import 'libs/bootstrap/scss/variables';
+@import 'libs/bootstrap/scss/root';
+@import 'libs/bootstrap/scss/reboot';
+@import 'libs/bootstrap/scss/type';
+@import 'libs/bootstrap/scss/images';
+//@import 'libs/bootstrap/scss/code';
+@import 'libs/bootstrap/scss/grid';
+@import 'libs/bootstrap/scss/tables';
+@import 'libs/bootstrap/scss/forms';
+@import 'libs/bootstrap/scss/buttons';
+@import 'libs/bootstrap/scss/transitions';
+//@import 'libs/bootstrap/scss/dropdown';
+//@import 'libs/bootstrap/scss/button-group';
+//@import 'libs/bootstrap/scss/input-group';
+//@import 'libs/bootstrap/scss/custom-forms';
+@import 'libs/bootstrap/scss/nav';
+@import 'libs/bootstrap/scss/navbar';
+@import 'libs/bootstrap/scss/card';
+@import 'libs/bootstrap/scss/breadcrumb';
+@import 'libs/bootstrap/scss/pagination';
+//@import 'libs/bootstrap/scss/badge';
+//@import 'libs/bootstrap/scss/jumbotron';
+//@import 'libs/bootstrap/scss/alert';
+@import 'libs/bootstrap/scss/progress';
+@import 'libs/bootstrap/scss/media';
+@import 'libs/bootstrap/scss/list-group';
+//@import 'libs/bootstrap/scss/close';
+//@import 'libs/bootstrap/scss/toasts';
+//@import 'libs/bootstrap/scss/modal';
+//@import 'libs/bootstrap/scss/tooltip';
+//@import 'libs/bootstrap/scss/popover';
+@import 'libs/bootstrap/scss/carousel';
+//@import 'libs/bootstrap/scss/spinners';
+@import 'libs/bootstrap/scss/utilities';
+@import 'libs/bootstrap/scss/print';
+
+// Plugins
+@import 'scss/plugins/backtotop';
+@import 'scss/plugins/carousel';
+@import 'scss/plugins/flags';
+@import 'scss/plugins/instantsearch';
+@import 'scss/plugins/sharebuttons';
+@import 'scss/plugins/twitter';
+@import 'scss/plugins/video-youtube';
+@import 'scss/plugins/wordpress';
+
+// Cookie consent
+@import 'scss/plugins/cookieconsent/animation';
+@import 'scss/plugins/cookieconsent/base';
+@import 'scss/plugins/cookieconsent/layout';
+@import 'scss/plugins/cookieconsent/media';
+@import 'scss/plugins/cookieconsent/themes/edgeless';
+
+// Components
+@import 'scss/components/global';
+@import 'scss/components/articles';
+@import 'scss/components/comments';
+@import 'scss/components/footer';
+@import 'scss/components/footnotes';
+@import 'scss/components/header';
+@import 'scss/components/icons';
+@import 'scss/components/images';
+@import 'scss/components/pagination';
+@import 'scss/components/sidebar';
+@import 'scss/components/tables';
+@import 'scss/components/topnavigation';
+@import 'scss/components/transitions';
