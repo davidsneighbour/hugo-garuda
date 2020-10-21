@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-garuda",
-  "version": "2020.1.1",
+  "version": "0.0.0",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -18,7 +18,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidsneighbour/samui-samui.de.git"
+    "url": "https://github.com/davidsneighbour/dnb-hugo-garuda.git"
   },
   "config": {
     "commitizen": {
@@ -27,9 +27,9 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress",
-    "release": "standard-version --release-as patch -a",
-    "release-next": "standard-version --release-as minor -a",
-    "release-major": "standard-version --release-as major -a",
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "stylelint": "stylelint assets/sass/",
     "stylelint-fix": "stylelint assets/sass/ --fix",
     "textlint": "textlint",
