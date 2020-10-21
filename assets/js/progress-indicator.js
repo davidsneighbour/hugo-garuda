@@ -1,5 +1,5 @@
 /*global l32n:true*/
-jQuery(document).ready(function($) {
+ready(function () {
 
   let winHeight = $(window).height();
   let docHeight = $(document).height();
