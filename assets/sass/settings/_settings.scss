@@ -17,19 +17,11 @@ $body-color: theme-color('text');
 $grid-gutter-width: 30px;
 
 // fonts
-$font-family-sans-serif: Arial, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-$headings-font-family: Arial, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 $dark: theme-color('text');
 $font-size-base: 1rem;
 $blockquote-font-size: $font-size-base;
 $link-color: darken($primary, 20%);
 $link-hover-color: darken($link-color, 10%);
-$font-weight-lighter:         200;
-$font-weight-light:           300;
-$font-weight-normal:          400;
-$font-weight-bold:            700;
-$font-weight-bolder:          800;
-$headings-font-weight:        800;
 
 // tables
 $table-border-color: theme-color('bodybg');
