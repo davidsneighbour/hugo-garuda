@@ -19,7 +19,7 @@
             {{ partialCached "icons/calendar-alt.svg" . }}
           </span>&nbsp;
           {{ .Date.Format "2" }}.
-          {{ index $.Site.Data.months.months .Date.Month }}
+          {{ i18n (printf "month_long_%d" .Date.Month) }}
           {{ .Date.Format "2006" }}
         </time>
       </span>
