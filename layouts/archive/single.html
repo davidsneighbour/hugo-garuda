@@ -5,7 +5,7 @@
 </header>
 {{ .Content }}
 
-{{ range (where .Site.RegularPages "Section" "posts").GroupByDate "January 2006" "asc" }}
+{{ range (where .Site.RegularPages "section" "posts").GroupByDate "January 2006" "asc" }}
 
 {{ $.Scratch.Set "current" false }}
 
