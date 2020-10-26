@@ -1,3 +1,9 @@
+[entries_from]
+other = "Einträge aus {{ . }}"
+
+[all_years]
+other = "Alle Jahre"
+
 [header_notes_tagged_with]
 other = "Notizen tagged mit {{ . }}"
 

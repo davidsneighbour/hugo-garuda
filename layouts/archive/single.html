@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
+<header class="title">
+    <h2 class="entry-title">{{ .Title }}</h2>
+</header>
+{{ partial "content/content.html" . }}
+</article>
+<footer>
+    <h2>{{ i18n "all_years" }}</h2>
+    <ul class="list-inline">
+        {{ $archive := where $.Site.RegularPages "Section" "archiv" }}
+        {{ range $index, $item := sort $archive "Title" "desc" }}
+            <li class="list-inline-item">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}
+    </ul>
+</footer>
+{{ end }}

@@ -1,3 +1,9 @@
+[entries_from]
+other = "Posts from {{ . }}"
+
+[all_years]
+other = "All years"
+
 [recent_entries_sidebar]
 other = "Recent Posts"
 
