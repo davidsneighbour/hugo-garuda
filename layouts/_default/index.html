@@ -1,11 +1,7 @@
 {{ define "main" }}
-  {{ print "<!-- _default/index.html -->" | safeHTML }}
-
-
   {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
   {{ range $paginator.Pages }}
-  
-  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
+  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}+>
     {{ .Scratch.Set "firstitem" "" }}
     <header class="title">
       <h2 class="entry-title">
@@ -17,7 +13,5 @@
     {{ partial "content/meta-bottom.html" . }}
   </article>
   {{ end }}
-
   {{ partial "pagination/posts.html" . }}
-
 {{ end }}
