@@ -3,7 +3,7 @@
 #topheader {
   h1 {
     text-align: center;
-    background-image: url('/header-201906.jpg');
+    background-image: url('/assets/header/' + $header_image);
     background-position: left;
     transition: all 0.8s ease;
 
