@@ -8,8 +8,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
-      time: "07:00"
+      interval: "weekly"
       timezone: "Asia/Bangkok"
     allow:
       - dependency-type: "production"
