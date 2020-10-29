@@ -45,3 +45,12 @@ other = "November"
 
 [month_long_12]
 other = "Dezember"
+
+[not_found_title]
+other = "Seite nicht gefunden!"
+
+[not_found_description]
+other = "Die gew&uuml;nschte Seite wurde nicht gefunden. Fakt."
+
+[search_title]
+other = "Suchen"
