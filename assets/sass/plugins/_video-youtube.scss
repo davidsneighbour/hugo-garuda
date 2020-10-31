@@ -1,7 +1,10 @@
 .youtube-player {
+
+  position: relative;
+
   iframe {
     background: transparent;
-    border: 1px solid theme-color('text');
+    border: 1px solid map-get($theme-colors,"text");
   }
 
   img {
@@ -17,19 +20,13 @@
     border: none;
     height: auto;
     cursor: pointer;
-    -webkit-transition: 0.4s all;
-    -moz-transition: 0.4s all;
     transition: 0.4s all;
 
     &:hover {
-      -webkit-filter: brightness(75%);
+      filter: brightness(75%);
     }
 
     &.preview {
-      -webkit-filter: blur(5px);
-      -moz-filter: blur(5px);
-      -o-filter: blur(5px);
-      -ms-filter: blur(5px);
       filter: blur(5px);
     }
   }
@@ -42,7 +39,7 @@
     margin-left: -36px;
     margin-top: -36px;
     position: absolute;
-    background: url('/assets/images/play.png') no-repeat;
+    background: url("/assets/images/play.png") no-repeat;
     cursor: pointer;
   }
 }

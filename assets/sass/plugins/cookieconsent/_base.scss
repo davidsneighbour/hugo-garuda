@@ -9,7 +9,7 @@
 
   /* the following are random unjustified styles - just because - should probably be removed */
   z-index: 9999;
-  background-color: lighten(theme-color('contentbg'), 10%);
+  background-color: lighten(map-get($theme-colors,"contentbg"), 10%);
 }
 
 .cc-window.cc-static {
@@ -88,7 +88,7 @@
 
   /* seeing as this contains text and not an image, the element taller than it is wide (because it is text) */
 
-  /*  - we want it to be a square, because it's acting as an icon */
+  /*  - we want it to be a square, because it"s acting as an icon */
 
   /*  - setting the line height normalises the height */
   line-height: 0.75;

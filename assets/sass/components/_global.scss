@@ -8,18 +8,18 @@ h4,
 h5,
 h6,
 p {
-  -webkit-font-feature-settings: 'onum', 'tnum', 'salt', 'calt', 'liga', 'dlig', 'clig', 'hlig', 'zero';
-  font-feature-settings: 'onum', 'tnum', 'salt', 'calt', 'liga', 'dlig', 'clig', 'hlig', 'zero';
+  -webkit-font-feature-settings: "onum", "tnum", "salt", "calt", "liga", "dlig", "clig", "hlig", "zero";
+  font-feature-settings: "onum", "tnum", "salt", "calt", "liga", "dlig", "clig", "hlig", "zero";
 }
 
 ::-moz-selection,
 ::selection {
-  background-color: theme-color('primary');
-  color: theme-color('contentbg');
+  background-color: map-get($theme-colors,"primary");
+  color: map-get($theme-colors,"contentbg");
 }
 
 #content {
-  background-color: theme-color('contentbg');
+  background-color: map-get($theme-colors,"contentbg");
 }
 
 h1 {

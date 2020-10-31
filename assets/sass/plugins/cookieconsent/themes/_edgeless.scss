@@ -24,12 +24,12 @@
 
 .cc-allow,
 .cc-dismiss {
-  background-color: theme-color('primary');
-  color: lighten(theme-color('contentbg'), 40%);
-  border-color: darken(theme-color('primary'), 10%);
+  background-color: map-get($theme-colors,"primary");
+  color: lighten(map-get($theme-colors,"contentbg"), 40%);
+  border-color: darken(map-get($theme-colors,"primary"), 10%);
 
   &:hover {
-    background-color: darken(theme-color('primary'), 10%);
-    color: lighten(theme-color('contentbg'), 40%);
+    background-color: darken(map-get($theme-colors,"primary"), 10%);
+    color: lighten(map-get($theme-colors,"contentbg"), 40%);
   }
 }

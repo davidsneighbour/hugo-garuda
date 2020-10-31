@@ -48,8 +48,8 @@ article {
   }
 
   blockquote.blockquote {
-    border-left: 5px solid theme-color('primary');
-    background-color: rgba(theme-color('primary'), 0.05);
+    border-left: 5px solid map-get($theme-colors,"primary");
+    background-color: rgba(map-get($theme-colors,"primary"), 0.05);
     padding: $spacer;
     border-radius: $border-radius-lg;
   }
@@ -61,7 +61,7 @@ article {
 
   .is--soundcloud {
     height: 130px;
-    background-color: rgba(theme-color('primary'), 0.05);
+    background-color: rgba(map-get($theme-colors,"primary"), 0.05);
   }
 
   .embed-responsive {
@@ -74,7 +74,7 @@ article {
     @extend .table-sm;
 
     thead {
-      @extend .thead-dark;
+      @extend .table-dark;
     }
   }
 }

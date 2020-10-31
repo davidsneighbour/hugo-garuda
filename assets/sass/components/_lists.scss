@@ -1,6 +1,6 @@
 ::marker {
   color: #00b7a8;
-  content: counters(list-item, '.') ':';
+  content: counters(list-item, ".") ":";
   font-weight: 600;
 }
 
@@ -14,7 +14,7 @@ h2 {
 
   ::before,
   ::marker {
-    content: counter(heading-counter) ': ';
+    content: counter(heading-counter) ": ";
     color: #00b7a8;
     font-weight: 600;
   }
