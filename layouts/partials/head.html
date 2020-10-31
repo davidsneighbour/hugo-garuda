@@ -2,6 +2,7 @@
 {{ partial "head/open_graph.html" . }}
 {{ partial "head/twitter.html" . }}
 {{ partialCached "favicons.html" . }}
+{{ partialCached "head/clarity.html" . }}
 
 {{ with partialCached "func/getStylesheet.html" . }}
     <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}">
