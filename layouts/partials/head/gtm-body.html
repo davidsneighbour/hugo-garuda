@@ -1,0 +1,12 @@
+{{- with .Site.Params.GTM_TAG -}}
+<noscript>
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id={{ . }}"
+    class="d-none"></iframe>
+</noscript>
+{{- else -}}
+<!--
+dnb-shortcodes/gtm-body.html is used, but the variable .Site.Params.GTM_TAG
+is not set in your config.
+-->
+{{- end -}}
