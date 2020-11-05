@@ -1,27 +1,24 @@
-/*global l32n:true*/
-ready(function () {
+let bar_bg = document.getElementById("readingprogress-bg"),
+  body = document.body,
+  html = document.documentElement;
 
-  let winHeight = $(window).height();
-  let docHeight = $(document).height();
-  let progressBar = $('#readingprogress .progress-bar');
-  let max;
-  let value;
+bar_bg.style.minWidth = document.width + "px";
 
-  max = docHeight - winHeight;
-  progressBar.attr('max', max);
-  $(document).on('scroll', function(){
-     value = $(window).scrollTop();
-     let val = (100 * value)/max;
-     progressBar.attr('value', value);
-     progressBar.attr('style', 'width: ' + val + '%');
-  }).trigger('scroll');
+document.getElementsByTagName("body")[0].onresize = function() {
+  // Update the gradient width
+  bar_bg.style.minWidth = document.width + "px";
+}
 
-  $(window).on('resize', function() {
-    winHeight = $(window).height();
-    docHeight = $(document).height();
-    max = docHeight - winHeight;
-    progressBar.attr('max', max);
-    $(document).trigger('scroll');
-  });
+window.onscroll = function() {
+  // Change the width of the progress bar
+  let bar = document.getElementById("readingprogress"),
+    dw  = document.documentElement.clientWidth,
+    dh  = Math.max( body.scrollHeight, body.offsetHeight,
+      html.clientHeight, html.scrollHeight, html.offsetHeight ),
+    wh  = window.innerHeight,
+    pos = pageYOffset || (document.documentElement.clientHeight ?
+      document.documentElement.scrollTop : document.body.scrollTop),
+    bw  = ((pos / (dh - wh)) * 100);
 
-});
+  bar.style.width = bw + "%";
+}

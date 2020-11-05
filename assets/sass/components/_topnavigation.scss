@@ -2,33 +2,43 @@
 
 #topnavigation {
   @extend .px-0;
+  background-color: map-get($theme-colors,"contentbg");
+  border-top-left-radius: $border-radius-lg;
+  border-top-right-radius: $border-radius-lg;
 
   position: sticky;
   top: 0;
   z-index: $zindex-sticky;
-
-  nav {
-    border-top-left-radius: $border-radius-lg;
-    border-top-right-radius: $border-radius-lg;
-  }
 
   &.navbar-fixed-top nav {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
 
-}
-
-.progress {
-  .progress-bar {
-    background: linear-gradient(
-      90deg,
-      rgba(208, 75, 54, 1) 0%,
-      rgba(227, 101, 17, 1) 20%,
-      rgba(255, 186, 0, 1) 40%,
-      rgba(0, 177, 128, 1) 60%,
-      rgba(20, 122, 171, 1) 80%,
-      rgba(103, 89, 151, 1) 100%
-    );
+  .progress {
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 0%;
+    height: 10px;
+    .progress-bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        80deg,
+        rgba(208, 75, 54, 1) 0%,
+        rgba(227, 101, 17, 1) 20%,
+        rgba(255, 186, 0, 1) 40%,
+        rgba(0, 177, 128, 1) 60%,
+        rgba(20, 122, 171, 1) 80%,
+        rgba(103, 89, 151, 1) 100%
+      );
+    }
   }
+
+
 }
