@@ -1,12 +1,4 @@
-{{/*
-
-  layout for single items without template in TYPE/single.html
-  page layout
-
-*/}}
-
 {{ define "main" }}
-  {{ print "<!-- _default/single.html -->" | safeHTML }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
   	<header class="title">
       <h2 class="entry-title">

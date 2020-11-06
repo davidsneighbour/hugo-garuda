@@ -1,8 +1,5 @@
 {{ define "title"}}Notizen tagged mit {{ .Page.Title }}{{ end }}
-
 {{ define "main" }}
-  {{ print "<!-- _default/taxonomy.html -->" | safeHTML }}
-
   <h2>
     <span class="icon large" aria-hidden="true">
       {{ partialCached "icons/tags.svg" . }}
@@ -14,7 +11,6 @@
       {{ end }}
     </em>
   </h2>
-
   {{ range .Paginator.Pages }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     <header class="title">
@@ -27,5 +23,4 @@
     {{ partial "content/meta-bottom.html" . }}
   </article>
   {{ end }}
-  
 {{ end }}

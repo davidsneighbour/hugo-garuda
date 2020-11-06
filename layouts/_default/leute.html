@@ -1,8 +1,6 @@
 {{ define "title"}}{{ i18n "header_notes_tagged_with" .Page.Title }}{{ end }}
 
 {{ define "main" }}
-  {{ print "<!-- _default/leute.html -->" | safeHTML }}
-
   <h2>
     <span class="icon large" aria-hidden="true">
       {{ partialCached "icons/user-friends.svg" . }}
@@ -14,7 +12,6 @@
       {{ end }}
     </em>
   </h2>
-
   {{ range .Paginator.Pages }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     <header class="title">
@@ -27,5 +24,4 @@
     {{ partial "content/meta-bottom.html" . }}
   </article>
   {{ end }}
-
 {{ end }}
