@@ -10,6 +10,10 @@
   top: 0;
   z-index: $zindex-sticky;
 
+  ul {
+    margin-left:0.5rem;
+  }
+
   &.navbar-fixed-top nav {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
