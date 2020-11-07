@@ -13,7 +13,7 @@ footer#copyright .container,
 footer#tagcloud .container,
 footer#peoplecloud .container {
   padding-top: $spacer;
-  background-color: map-get($theme-colors,"text");
+  background-color: map-get($theme-colors, 'text');
   color: #bababa;
 
   #authorfooter {
@@ -25,17 +25,17 @@ footer#peoplecloud .container {
 
     a {
       text-decoration: none;
-      color: map-get($theme-colors,"contentbg");
+      color: map-get($theme-colors, 'contentbg');
 
       &:hover {
-        color: darken(map-get($theme-colors,"contentbg"), 20%);
+        color: darken(map-get($theme-colors, 'contentbg'), 20%);
       }
     }
   }
 }
 
 footer#finisher .container {
-  background: url("/assets/images/garuda.png") 50% bottom no-repeat map-get($theme-colors,"text");
+  background: url('/assets/images/garuda.png') 50% bottom no-repeat map-get($theme-colors, 'text');
 
   @media (max-width: 575px) {
     background-size: 300%;
