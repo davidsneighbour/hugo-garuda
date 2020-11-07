@@ -20,13 +20,6 @@ p {
 
 #content {
   background-color: map-get($theme-colors, 'contentbg');
-
-  @extend .container;
-  @extend .pt-3;
-
-  #contentcolumn {
-    @extend .row;
-  }
 }
 
 h1 {
