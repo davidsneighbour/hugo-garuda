@@ -13,6 +13,6 @@
 {{ $jsLocal := resources.Get (printf "%s/%s" "js" ($.Param "dnb.javascript")) }}
 {{ $opts := dict "noComments" true "compact" true "minified" true }}
 {{- $transpiled := resources.Get "js/script.js" | babel $opts -}}
-{{ $js := slice $js0 $js11 $js10 $js31 $js4 $js5 $js7 $js8 $transpiled $jsLocal | resources.Concat "script.js" | resources.Minify | resources.Fingerprint "sha384" }}
+{{ $js := slice $js0 $js11 $js31 $js4 $js5 $js7 $js8 $transpiled $jsLocal | resources.Concat "script.js" | resources.Minify | resources.Fingerprint "sha384" }}
 
 {{ return $js }}
