@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ .Site.LanguageCode }}" class="no-js">
+<html lang="{{ .Site.Language.Lang }}" class="no-js">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,7 +13,7 @@
     <div id="contentcolumn" class="row">
       {{ $contentColumnClasses := "col" }}
       {{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true )) }}
-        {{ $contentColumnClasses := "col-lg-8 col-sm-12 col" }}
+        {{ $contentColumnClasses = "col-lg-8 col-sm-12 col" }}
       {{ end }}
       <div id="maincolumn" class="{{ $contentColumnClasses }}">
         {{ block "main" . }}{{ end }}

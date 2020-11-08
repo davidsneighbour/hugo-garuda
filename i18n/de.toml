@@ -1,3 +1,6 @@
+[pagination_title]
+other = "Was bisher geschah..."
+
 [entries_from]
 other = "Einträge aus {{ . }}"
 
@@ -6,6 +9,12 @@ other = "Alle Jahre"
 
 [header_notes_tagged_with]
 other = "Notizen tagged mit {{ . }}"
+
+[archive_sidebar]
+other = "Archiv"
+
+[socialmedia_sidebar]
+other = "Social Media"
 
 [recent_entries_sidebar]
 other = "Neueste Einträge"

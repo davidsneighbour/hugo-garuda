@@ -1,37 +1,49 @@
+[pagination_title]
+other = "Pagination"
+
 [entries_from]
 other = "Posts from {{ . }}"
 
 [all_years]
 other = "All years"
 
+[header_notes_tagged_with]
+other = "Entries tagged with {{ . }}"
+
+[archive_sidebar]
+other = "Archive"
+
+[socialmedia_sidebar]
+other = "Social Media"
+
 [recent_entries_sidebar]
 other = "Recent Posts"
 
-[month_long_1 ]
+[month_long_1]
 other = "January"
 
-[month_long_2 ]
+[month_long_2]
 other = "February"
 
-[month_long_3 ]
+[month_long_3]
 other = "March"
 
-[month_long_4 ]
+[month_long_4]
 other = "April"
 
-[month_long_5 ]
+[month_long_5]
 other = "May"
 
-[month_long_6 ]
+[month_long_6]
 other = "June"
 
-[month_long_7 ]
+[month_long_7]
 other = "July"
 
-[month_long_8 ]
+[month_long_8]
 other = "August"
 
-[month_long_9 ]
+[month_long_9]
 other = "September"
 
 [month_long_10]
@@ -51,4 +63,3 @@ other = "The requested page was not found."
 
 [search_title]
 other = "Search"
-

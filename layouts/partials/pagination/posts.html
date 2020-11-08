@@ -31,7 +31,6 @@ TotalNumberOfElements
 The number of elements on all pages in this paginator
 
 */}}
-
 {{ if gt $.Paginator.TotalPages 1 }}
 <nav aria-label="">
   <ul class="pagination justify-content-center">
@@ -91,8 +90,6 @@ The number of elements on all pages in this paginator
         </a>
       </li>
     {{ end }}
-
   </ul>
 </nav>
-
 {{ end }}

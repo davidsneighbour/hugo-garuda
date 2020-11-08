@@ -10,7 +10,7 @@
     border-radius: 0;
   }
 
-  .grid-container {
+  #widget-archive .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     align-items: center;
