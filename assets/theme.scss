@@ -19,17 +19,17 @@
 @import "libs/bootstrap/scss/tables";
 @import "libs/bootstrap/scss/forms";
 @import "libs/bootstrap/scss/buttons";
-@import "libs/bootstrap/scss/transitions";
+//@import "libs/bootstrap/scss/transitions";
 //@import "libs/bootstrap/scss/dropdown";
 //@import "libs/bootstrap/scss/button-group";
 @import "libs/bootstrap/scss/nav";
 @import "libs/bootstrap/scss/navbar";
 @import "libs/bootstrap/scss/card";
-@import "libs/bootstrap/scss/breadcrumb";
+//@import "libs/bootstrap/scss/breadcrumb";
 @import "libs/bootstrap/scss/pagination";
 //@import "libs/bootstrap/scss/badge";
 //@import "libs/bootstrap/scss/alert";
-@import "libs/bootstrap/scss/progress";
+//@import "libs/bootstrap/scss/progress";
 @import "libs/bootstrap/scss/list-group";
 //@import "libs/bootstrap/scss/close";
 //@import "libs/bootstrap/scss/toasts";
@@ -39,10 +39,8 @@
 @import "libs/bootstrap/scss/carousel";
 //@import "libs/bootstrap/scss/spinners";
 
-// Helpers
+// Helpers & Utilities
 @import "libs/bootstrap/scss/helpers";
-
-// Utilities
 @import "libs/bootstrap/scss/utilities/api";
 
 // Plugins
