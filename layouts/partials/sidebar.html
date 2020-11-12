@@ -1,4 +1,4 @@
-{{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true ) (isset ($.Param "dnb.sidebar") "items")) }}
+{{ if eq (.Scratch.Get "hasSidebar") true }}
     <div id="sidebar" class="col-lg-4 col-sm-12 col">
     {{ range $.Param "dnb.sidebar.items" }}
         {{ if (eq . "recent") }}

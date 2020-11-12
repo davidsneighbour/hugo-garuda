@@ -1,4 +1,10 @@
 <!doctype html>
+{{ $contentColumnClasses := "col" }}
+{{ .Scratch.Set "hasSidebar" false }}
+{{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true )) }}
+  {{ .Scratch.Set "hasSidebar" true }}
+  {{ $contentColumnClasses := "col-lg-8 col-sm-12 col" }}
+{{ end }}
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
 <head>
   <meta charset="utf-8">
@@ -9,19 +15,16 @@
 </head>
 <body id="{{ .Site.Params.Siteslug }}">
   {{ partial "header" . }}
-  <main id="content" class="container pt-3">
+  <main id="content" class="container">
     <div id="contentcolumn" class="row">
-      {{ $contentColumnClasses := "col" }}
-      {{ if (and (isset ($.Param "dnb.sidebar") "enabled") (eq ($.Param "dnb.sidebar.enabled") true )) }}
-        {{ $contentColumnClasses = "col-lg-8 col-sm-12 col" }}
-      {{ end }}
       <div id="maincolumn" class="{{ $contentColumnClasses }}">
         {{ block "main" . }}{{ end }}
       </div>
-      {{ partial "sidebar" . }}
+      {{ if eq (.Scratch.Get "hasSidebar") true }}
+        {{ partial "sidebar" . }}
+      {{ end }}
     </div>
   </main>
   {{ partial "footer" . }}
 </body>
 </html>
-
