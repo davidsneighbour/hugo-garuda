@@ -21,7 +21,7 @@ ready(function () {
 			}
 		});
 
-		var template = '<article id="{{objectID}}">';
+		let template = '<article id="{{objectID}}">';
 		template += '<header class="title">';
 		template += '<h2 class="entry-title">';
 		template += '<a href="{{{url}}}">';
@@ -39,7 +39,7 @@ ready(function () {
 		template += '</div>';
 		template += '</header>';
 		template += '<div class="text entry-content">';
-		template += '{{{_highlightResult.summary.value}}}';
+		template += '{{{_highlightResult.excerpt_html.value}}}';
 		template += '</div>';
 		template += '</article>';
 

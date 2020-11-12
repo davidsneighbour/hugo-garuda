@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-garuda",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -41,15 +41,15 @@
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "pixrem": "5.0.0",
-    "postcss": "8.1.4",
+    "postcss": "8.1.6",
     "postcss-cli": "^8.0.0",
     "precss": "4.0.0",
     "standard-version": "9.0.0",
     "stylelint": "13.7.2",
     "stylelint-config-standard": "20.0.0",
-    "vue-loader": "15.9.4",
     "webpack": "5.4.0",
-    "webpack-cli": "4.1.0"
+    "vue-loader": "15.9.5",
+    "webpack-cli": "4.2.0"
   },
   "standard-version": {
     "skip": {

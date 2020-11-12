@@ -4,8 +4,8 @@ static sharing buttons for social media
 <div class="mb-3">
 <h3>Verbreitet die Botschaft!</h3>
 <div class="row social-media-buttons mb-3">
-  <div class="col">
-    <a class="btn btn-facebook btn-block"
+  <div class="col d-grid">
+    <a class="btn btn-facebook"
        href="https://www.facebook.com/sharer/sharer.php?u={{.Permalink}}&title={{ .Title }}"
        onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=800');return false;"
        target="_blank"><span class="icon larger light" aria-hidden="true">
@@ -14,8 +14,8 @@ static sharing buttons for social media
       <span class="sr-only sr-only-focusable">&nbsp;Auf Facebook teilen</span>
     </a>
   </div>
-  <div class="col">
-    <a class="btn btn-linkedin btn-block"
+  <div class="col d-grid">
+    <a class="btn btn-linkedin"
        href="https://www.linkedin.com/shareArticle?mini=true&url={{.Permalink}}"
        onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=800');return false;"
        target="_blank"><span class="icon larger light" aria-hidden="true">
@@ -24,8 +24,8 @@ static sharing buttons for social media
       <span class="sr-only sr-only-focusable">&nbsp;Auf LinkedIn teilen</span>
     </a>
   </div>
-  <div class="col">
-    <a class="btn btn-twitter btn-block"
+  <div class="col d-grid">
+    <a class="btn btn-twitter"
        href="https://twitter.com/intent/tweet?url={{.Permalink}}&via=samui2&hashtags=samui,thailand"
        onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=450,width=800');return false;"
        target="_blank"><span class="icon larger light" aria-hidden="true">
