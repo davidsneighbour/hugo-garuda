@@ -47,8 +47,8 @@
     "standard-version": "9.0.0",
     "stylelint": "13.7.2",
     "stylelint-config-standard": "20.0.0",
+    "webpack": "5.4.0",
     "vue-loader": "15.9.5",
-    "webpack": "5.3.2",
     "webpack-cli": "4.2.0"
   },
   "standard-version": {
