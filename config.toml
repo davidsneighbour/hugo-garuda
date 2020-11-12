@@ -4,6 +4,9 @@
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap5"
 
 [[module.imports]]
+path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons"
+
+[[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo/renderhooks"
 
 [[module.imports]]
