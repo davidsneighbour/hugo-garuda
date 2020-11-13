@@ -1,0 +1,6 @@
+{{ $partialHook := printf "partials/hooks/%s" . }}
+{{ if templates.Exists $partialHook }}
+    {{ partial $partialHook $.Page }}
+{{ else }}
+    {{ warnf "Unused hook available for %s (see %s)" . "https://linkto.docu" }}
+{{ end }}
