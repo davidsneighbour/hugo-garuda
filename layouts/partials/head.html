@@ -1,7 +1,7 @@
-{{ partial "head/metadata.html" . }}
-{{ partial "head/open_graph.html" . }}
-{{ partial "head/twitter.html" . }}
-{{ partialCached "favicons.html" . }}
-{{ with partialCached "func/getStylesheet.html" . }}
+{{- partial "head/metadata.html" . -}}
+{{- partial "head/open_graph.html" . -}}
+{{- partial "head/twitter.html" . -}}
+{{- partialCached "favicons.html" . -}}
+{{- with partialCached "func/getStylesheet.html" . -}}
     <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}">
-{{ end }}
+{{- end -}}
