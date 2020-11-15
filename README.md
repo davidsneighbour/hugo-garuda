@@ -1,4 +1,4 @@
-# dnb-hugo-garuda
+## dnb-hugo-garuda
 
 An opinionated and colourful weblog theme for Hugo. See [the wiki for documentation](/davidsneighbour/dnb-hugo-garuda/wiki).
 
