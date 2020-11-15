@@ -8,6 +8,7 @@
 @import "sass/settings/colors";
 @import "sass/settings/fonts";
 @import "sass/settings/settings";
+@import "sass/settings/local-settings";
 
 // Bootstrap
 @import "libs/bootstrap/scss/root";
@@ -68,3 +69,4 @@
 @import "sass/components/tables";
 @import "sass/components/topnavigation";
 @import "sass/components/transitions";
+@import "sass/components/local-changes";
