@@ -2,5 +2,5 @@
 {{ if templates.Exists $partialHook }}
     {{ partial $partialHook $.Page }}
 {{ else }}
-    {{ warnf "Unused hook available for %s (see %s)" . "https://linkto.docu" }}
+    {{ warnf "Unused hook available for %s (see %s)" . site.Data.dnb.hooklink }}
 {{ end }}
