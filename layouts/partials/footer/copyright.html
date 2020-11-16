@@ -14,7 +14,7 @@
           </ul>
           <p>
             <span class="copy">&copy; {{ with $.Param "dnb.copy-from" }}{{ . }}-{{ end }}{{ now.Format "2006" }}</span>&nbsp;<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> |
-            Auf <a href="http://gohugo.io/">Hugo {{ hugo.Version }}</a> geschmiedet.
+            {{ i18n "copyrightbyline" hugo.Version | safeHTML }}
           </p>
         </div>
       </div>

@@ -1,4 +1,7 @@
 # dnb-hugo-garuda english template strings
+[copyrightbyline]
+other = "Created with <a href=\"http://gohugo.io/\">Hugo {{ . }}</a>."
+
 [pagination_title]
 other = "Pagination"
 
