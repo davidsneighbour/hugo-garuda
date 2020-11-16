@@ -4,11 +4,17 @@ ready(function () {
 	var elementExists = document.getElementById('search-box');
 
 	if (elementExists) {
+
+		console.log(appId);
+		console.log(apiKey);
+		console.log(indexName);
+		console.log(numberLocale);
+
 		var search = instantsearch({
-			appId: '166C265UOG',
-			apiKey: '7e52bca82b03b3a7eb6bbee9fa7429f3',
-			indexName: 'samui-samui-de',
-			numberLocale: 'de',
+			appId: appId,
+			apiKey: apiKey,
+			indexName: indexName,
+			numberLocale: numberLocale,
 			routing: true,
 			searchFunction: function (helper) {
 				/**

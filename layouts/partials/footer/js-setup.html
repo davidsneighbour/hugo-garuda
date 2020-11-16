@@ -1,0 +1,14 @@
+<script>
+{{- with $.Param "dnb.algolia.appId" -}}
+const appId = "{{ . }}";
+{{ end -}}
+{{ with $.Param "dnb.algolia.apiKey" -}}
+const apiKey = "{{ . }}";
+{{ end -}}
+{{ with $.Param "dnb.algolia.indexName" -}}
+const indexName = "{{ . }}";
+{{ end -}}
+{{ with $.Param "dnb.algolia.numberLocale" -}}
+const numberLocale = "{{ . }}";
+{{ end -}}
+</script>

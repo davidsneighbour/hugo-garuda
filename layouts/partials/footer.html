@@ -2,6 +2,7 @@
 {{ partialCached "footer/copyright.html" . }}
 {{ partial "footer/debugging.html" . }}
 {{ partialCached "footer/finisher.html" . }}
+{{ partialCached "footer/js-setup.html" . }}
 {{ with partialCached "func/getJavascript.html" . }}
 <script src="{{.RelPermalink}}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" async defer type="text/javascript"></script>
 {{ end }}
