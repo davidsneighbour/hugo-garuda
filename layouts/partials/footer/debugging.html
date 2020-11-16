@@ -1,4 +1,4 @@
-{{ if eq .Site.Params.debug true }}
+{{ if eq ($.Param "dnb.debug") true }}
   {{ if .Site.IsServer }}
     <footer id="debugging">
       <div class="container">
