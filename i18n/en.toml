@@ -1,4 +1,16 @@
 # dnb-hugo-garuda english template strings
+[share_title]
+other = "Sharing"
+
+[share_facebook]
+other = "Share on Facebook"
+
+[share_twitter]
+other = "Share on Twitter"
+
+[share_linkedin]
+other = "Share on LinkedIn"
+
 [related_title]
 other = "Related posts"
 

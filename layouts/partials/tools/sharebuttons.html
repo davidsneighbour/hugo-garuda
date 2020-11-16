@@ -2,7 +2,7 @@
 static sharing buttons for social media
 */}}
 <div class="mb-3">
-<h3>Verbreitet die Botschaft!</h3>
+<h3>{{ i18n "share_title" }}</h3>
 <div class="row social-media-buttons mb-3">
   <div class="col d-grid">
     <a class="btn btn-facebook"
@@ -11,7 +11,7 @@ static sharing buttons for social media
        target="_blank"><span class="icon larger light" aria-hidden="true">
           {{ partialCached "icons/facebook-f.svg" . }}
         </span>
-      <span class="sr-only sr-only-focusable">&nbsp;Auf Facebook teilen</span>
+      <span class="sr-only sr-only-focusable">&nbsp;{{ i18n "share_facebook" }}</span>
     </a>
   </div>
   <div class="col d-grid">
@@ -21,7 +21,7 @@ static sharing buttons for social media
        target="_blank"><span class="icon larger light" aria-hidden="true">
           {{ partialCached "icons/linkedin-in.svg" . }}
         </span>
-      <span class="sr-only sr-only-focusable">&nbsp;Auf LinkedIn teilen</span>
+      <span class="sr-only sr-only-focusable">&nbsp;{{ i18n "share_linkedin" }}</span>
     </a>
   </div>
   <div class="col d-grid">
@@ -31,7 +31,7 @@ static sharing buttons for social media
        target="_blank"><span class="icon larger light" aria-hidden="true">
           {{ partialCached "icons/twitter.svg" . }}
         </span>
-      <span class="sr-only sr-only-focusable">&nbsp;Auf Twitter teilen</span>
+      <span class="sr-only sr-only-focusable">&nbsp;{{ i18n "share_twitter" }}</span>
     </a>{{/* text is also a parameter */}}
   </div>
 </div>

@@ -1,4 +1,16 @@
 # dnb-hugo-garuda german template strings
+[share_title]
+other = "Teilen"
+
+[share_facebook]
+other = "Auf Facebook teilen"
+
+[share_twitter]
+other = "Auf Twitter teilen"
+
+[share_linkedin]
+other = "Auf LinkedIn teilen"
+
 [related_title]
 other = "Verwandte Eintr&auml;ge"
 
