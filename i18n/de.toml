@@ -1,4 +1,7 @@
 # dnb-hugo-garuda german template strings
+[tags_title]
+other = "Tags"
+
 [copyrightbyline]
 other = "Auf <a href=\"http://gohugo.io/\">Hugo {{ . }}</a> geschmiedet."
 
