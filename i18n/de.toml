@@ -1,4 +1,7 @@
 # dnb-hugo-garuda german template strings
+[related_title]
+other = "Verwandte Eintr&auml;ge"
+
 [tags_title]
 other = "Tags"
 

@@ -1,4 +1,7 @@
 # dnb-hugo-garuda english template strings
+[related_title]
+other = "Related posts"
+
 [tags_title]
 other = "Tags"
 
