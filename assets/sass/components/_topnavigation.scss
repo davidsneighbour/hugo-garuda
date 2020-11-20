@@ -2,13 +2,13 @@
 
 #topnavigation {
   @extend .px-0;
+  position: sticky;
+  top: 0;
+  z-index: $zindex-sticky;
 
   background-color: map-get($theme-colors, 'contentbg');
   border-top-left-radius: $border-radius-lg;
   border-top-right-radius: $border-radius-lg;
-  position: sticky;
-  top: 0;
-  z-index: $zindex-sticky;
 
   ul {
     margin-left: 0.5rem;
@@ -23,9 +23,9 @@
     position: relative;
     top: 0;
     left: 0;
-    overflow: hidden;
     width: 0%;
     height: 10px;
+    overflow: hidden;
 
     .progress-bar {
       position: absolute;

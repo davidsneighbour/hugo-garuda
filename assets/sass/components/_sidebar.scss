@@ -12,10 +12,10 @@
 
   #widget-archive .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     align-items: center;
-    text-align: center;
     line-height: 3;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
   }
 
   #widget-social {

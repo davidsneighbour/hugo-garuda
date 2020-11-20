@@ -1,7 +1,7 @@
 ::marker {
+  font-weight: 600;
   color: #00b7a8;
   content: counters(list-item, '.') ':';
-  font-weight: 600;
 }
 
 body {
@@ -9,13 +9,13 @@ body {
 }
 
 h2 {
-  counter-increment: heading-counter;
   display: list-item;
+  counter-increment: heading-counter;
 
   ::before,
   ::marker {
-    content: counter(heading-counter) ': ';
-    color: #00b7a8;
     font-weight: 600;
+    color: #00b7a8;
+    content: counter(heading-counter) ': ';
   }
 }

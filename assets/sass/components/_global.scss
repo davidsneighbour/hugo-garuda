@@ -8,14 +8,14 @@ h4,
 h5,
 h6,
 p {
-  -webkit-font-feature-settings: 'onum', 'tnum', 'salt', 'calt', 'liga', 'dlig', 'clig', 'hlig', 'zero';
+  font-feature-settings: 'onum', 'tnum', 'salt', 'calt', 'liga', 'dlig', 'clig', 'hlig', 'zero';
   font-feature-settings: 'onum', 'tnum', 'salt', 'calt', 'liga', 'dlig', 'clig', 'hlig', 'zero';
 }
 
-::-moz-selection,
+::selection,
 ::selection {
-  background-color: map-get($theme-colors, 'primary');
   color: map-get($theme-colors, 'contentbg');
+  background-color: map-get($theme-colors, 'primary');
 }
 
 #content {

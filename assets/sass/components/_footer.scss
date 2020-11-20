@@ -13,8 +13,8 @@ footer#copyright .container,
 footer#tagcloud .container,
 footer#peoplecloud .container {
   padding-top: $spacer;
-  background-color: map-get($theme-colors, 'text');
   color: #bababa;
+  background-color: map-get($theme-colors, 'text');
 
   #authorfooter {
     img {
@@ -24,8 +24,8 @@ footer#peoplecloud .container {
     }
 
     a {
-      text-decoration: none;
       color: map-get($theme-colors, 'contentbg');
+      text-decoration: none;
 
       &:hover {
         color: darken(map-get($theme-colors, 'contentbg'), 20%);
