@@ -27,9 +27,9 @@
     "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
     "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
     "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
-    "stylelint": "stylelint assets/sass/",
+    "stylelint": "stylelint assets/scss/",
     "stylelint2": "stylelint",
-    "stylelint-fix": "stylelint assets/sass/ --fix"
+    "stylelint-fix": "stylelint assets/scss/ --fix"
   },
   "devDependencies": {
     "@babel/preset-env": "7.12.1",
@@ -76,8 +76,8 @@
       ]
     },
     "ignoreFiles": [
-      "assets/sass/templates/*",
-      "assets/sass/plugins/*"
+      "assets/scss/templates/*",
+      "assets/scss/plugins/*"
     ]
   }
 }

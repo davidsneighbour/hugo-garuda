@@ -5,10 +5,10 @@
 @import "libs/bootstrap/scss/utilities";
 
 // DNB theme setup
-@import "sass/settings/colors";
-@import "sass/settings/fonts";
-@import "sass/settings/settings";
-@import "sass/settings/local-settings";
+@import "scss/settings/colors";
+@import "scss/settings/fonts";
+@import "scss/settings/settings";
+@import "scss/settings/local-settings";
 
 // Bootstrap
 @import "libs/bootstrap/scss/root";
@@ -45,28 +45,28 @@
 @import "libs/bootstrap/scss/utilities/api";
 
 // Plugins
-@import "sass/plugins/backtotop";
-@import "sass/plugins/carousel";
-@import "sass/plugins/flags";
-@import "sass/plugins/instantsearch";
-@import "sass/plugins/sharebuttons";
-@import "sass/plugins/twitter";
-@import "sass/plugins/wordpress";
-@import "sass/plugins/youtube";
+@import "scss/plugins/backtotop";
+@import "scss/plugins/carousel";
+@import "scss/plugins/flags";
+@import "scss/plugins/instantsearch";
+@import "scss/plugins/sharebuttons";
+@import "scss/plugins/twitter";
+@import "scss/plugins/wordpress";
+@import "scss/plugins/youtube";
 
 // Components
-@import "sass/components/global";
-@import "sass/components/content";
-@import "sass/components/articles";
-@import "sass/components/comments";
-@import "sass/components/footer";
-@import "sass/components/footnotes";
-@import "sass/components/header";
-@import "sass/components/icons";
-@import "sass/components/images";
-@import "sass/components/pagination";
-@import "sass/components/sidebar";
-@import "sass/components/tables";
-@import "sass/components/topnavigation";
-@import "sass/components/transitions";
-@import "sass/components/local-changes";
+@import "scss/components/global";
+@import "scss/components/content";
+@import "scss/components/articles";
+@import "scss/components/comments";
+@import "scss/components/footer";
+@import "scss/components/footnotes";
+@import "scss/components/header";
+@import "scss/components/icons";
+@import "scss/components/images";
+@import "scss/components/pagination";
+@import "scss/components/sidebar";
+@import "scss/components/tables";
+@import "scss/components/topnavigation";
+@import "scss/components/transitions";
+@import "scss/components/local-changes";
