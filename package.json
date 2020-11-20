@@ -28,6 +28,7 @@
     "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
     "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
     "stylelint": "stylelint assets/sass/",
+    "stylelint2": "stylelint",
     "stylelint-fix": "stylelint assets/sass/ --fix"
   },
   "devDependencies": {
@@ -46,9 +47,9 @@
     "precss": "4.0.0",
     "standard-version": "9.0.0",
     "stylelint": "13.7.2",
-    "stylelint-config-standard": "20.0.0",
-    "webpack": "5.4.0",
+    "stylelint-config-dnb": "git://github.com/davidsneighbour/stylelint-config-dnb.git",
     "vue-loader": "15.9.5",
+    "webpack": "5.4.0",
     "webpack-cli": "4.2.0"
   },
   "standard-version": {
@@ -67,41 +68,16 @@
     ]
   },
   "stylelint": {
-    "extends": "stylelint-config-standard",
+    "extends": "stylelint-config-dnb/scss",
     "rules": {
       "function-disallowed-list": [
-        "calc",
         "lighten",
         "darken"
-      ],
-      "property-disallowed-list": [
-        "border-radius",
-        "border-top-left-radius",
-        "border-top-right-radius",
-        "border-bottom-right-radius",
-        "border-bottom-left-radius",
-        "transition"
-      ],
-      "scss/selector-no-union-class-name": true,
-      "indentation": 2,
-      "string-quotes": "single",
-      "no-duplicate-selectors": true,
-      "color-hex-case": "lower",
-      "color-hex-length": "long",
-      "color-named": "never",
-      "selector-attribute-quotes": "always",
-      "declaration-block-trailing-semicolon": "always",
-      "declaration-colon-space-before": "never",
-      "declaration-colon-space-after": "always",
-      "number-leading-zero": "always",
-      "function-url-quotes": "always",
-      "font-weight-notation": "numeric",
-      "font-family-name-quotes": "always-where-recommended",
-      "comment-empty-line-before": "always"
+      ]
     },
     "ignoreFiles": [
       "assets/sass/templates/*",
-      "assets/sass/plugins/_instantsearch.scss"
+      "assets/sass/plugins/*"
     ]
   }
 }
