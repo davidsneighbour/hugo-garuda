@@ -69,6 +69,20 @@
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
+      "function-disallowed-list": [
+        "calc",
+        "lighten",
+        "darken"
+      ],
+      "property-disallowed-list": [
+        "border-radius",
+        "border-top-left-radius",
+        "border-top-right-radius",
+        "border-bottom-right-radius",
+        "border-bottom-left-radius",
+        "transition"
+      ],
+      "scss/selector-no-union-class-name": true,
       "indentation": 2,
       "string-quotes": "single",
       "no-duplicate-selectors": true,
