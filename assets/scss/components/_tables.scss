@@ -4,7 +4,7 @@ caption {
   padding-top: 0; /** @todo see if this is done via settings */
 }
 
-table.debugprint {
+.debugprint {
   @extend .table-dark;
   @extend .table-bordered;
   @extend .table-sm;
