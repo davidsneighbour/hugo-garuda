@@ -1,6 +1,14 @@
 {{ $partialHook := printf "partials/hooks/%s" . }}
+{{ $partialHookCached := printf "partials/hooks/%s-cached" . }}
+{{ $loaded := false }}
 {{ if templates.Exists $partialHook }}
     {{ partial $partialHook $.Page }}
-{{ else }}
+    {{ $loaded = true }}
+{{ end }}
+{{ if templates.Exists $partialHookCached }}
+    {{ partial $partialHookCached $.Page }}
+    {{ $loaded = false }}
+{{ end }}
+{{ if $loaded }}
     {{ warnf "Unused hook available for %s (see %s)" . site.Data.dnb.hooklink }}
 {{ end }}
