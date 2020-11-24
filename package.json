@@ -42,7 +42,7 @@
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "pixrem": "5.0.0",
-    "postcss": "8.1.7",
+    "postcss": "8.1.10",
     "postcss-cli": "8.3.0",
     "precss": "4.0.0",
     "standard-version": "9.0.0",
