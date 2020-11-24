@@ -16,9 +16,9 @@ tags:
     - tag2
 # set to false to hide comments on this page
 # remove this if you want to show comments for less clutter
-hide_comments = false
-hide_sharebuttons = false
-hide_related = false
+hide_comments: false
+hide_sharebuttons: false
+hide_related: false
 # tbd.
 draft: true
 # tbd.
