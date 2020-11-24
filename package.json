@@ -46,7 +46,7 @@
     "postcss-cli": "8.2.0",
     "precss": "4.0.0",
     "standard-version": "9.0.0",
-    "stylelint": "13.7.2",
+    "stylelint": "13.8.0",
     "stylelint-config-dnb": "git://github.com/davidsneighbour/stylelint-config-dnb.git",
     "vue-loader": "15.9.5",
     "webpack": "5.4.0",
