@@ -3,9 +3,9 @@ module github.com/davidsneighbour/dnb-hugo-garuda
 go 1.15
 
 require (
-	github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons v1.1.1 // indirect
-	github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.1.0 // indirect
-	github.com/davidsneighbour/dnb-hugo/favicon v1.0.2 // indirect
+	github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons v1.2.1 // indirect
+	github.com/davidsneighbour/dnb-hugo-libs/bootstrap5 v1.1.1 // indirect
+	github.com/davidsneighbour/dnb-hugo/functions v1.0.2 // indirect
 	github.com/davidsneighbour/dnb-hugo/renderhooks v1.0.2 // indirect
 	github.com/davidsneighbour/dnb-hugo/robots v1.0.1 // indirect
 	github.com/davidsneighbour/dnb-hugo/shortcodes v1.0.9 // indirect
