@@ -2,24 +2,32 @@
 
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap5"
+disabled = false
 
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons"
+disabled = false
+
+[[module.imports]]
+path = "github.com/davidsneighbour/dnb-hugo/functions"
+disabled = false
 
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo/renderhooks"
+disabled = false
 
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo/robots"
+disabled = false
 
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo/shortcodes"
+disabled = false
 
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo/sitemap"
-
-[[module.imports]]
-path = "github.com/davidsneighbour/dnb-hugo/favicon"
+disabled = false
 
 [[module.imports]]
 path = "github.com/kaushalmodi/hugo-debugprint"
+disabled = false
