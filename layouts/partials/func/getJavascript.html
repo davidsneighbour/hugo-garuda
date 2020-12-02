@@ -8,9 +8,10 @@
 
 {{ $js8 := resources.Get "js/script.js" }}
 
+{{/*<!--{{ $js := resources.Get "test.js" }}
+{{ $jsm := $js | js.Build (dict "minify" true) }}-->*/}}
+
 {{ $jsLocal := resources.Get (printf "%s/%s" "js" ($.Param "dnb.javascript")) }}
-{{ $opts := dict "noComments" true "compact" true "minified" true }}
-{{- $transpiled := $js8 | babel $opts -}}
-{{ $js := slice $js1 $js2 $js3 $js4 $js5 $js6 $js7 $transpiled $jsLocal | resources.Concat "script.js" | resources.Minify | resources.Fingerprint "sha384" }}
+{{ $js := slice $js1 $js2 $js3 $js4 $js5 $js6 $js7 $js8 $jsLocal | resources.Concat "script.js" | resources.Minify | resources.Fingerprint "sha384" }}
 
 {{ return $js }}
