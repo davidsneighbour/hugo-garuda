@@ -34,7 +34,7 @@
   "devDependencies": {
     "autoprefixer": "10.0.4",
     "commitizen": "4.2.2",
-    "cross-env": "7.0.2",
+    "cross-env": "7.0.3",
     "cssnano": "4.1.10",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
