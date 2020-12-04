@@ -24,9 +24,9 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress",
-    "release": "standard-version --release-as patch -a -t \"v\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a -t \"v\" && git push --follow-tags origin main",
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
     "stylelint": "stylelint assets/scss/",
     "stylelint2": "stylelint",
     "stylelint-fix": "stylelint assets/scss/ --fix"
@@ -54,6 +54,9 @@
   "standard-version": {
     "skip": {
       "changelog": true
+    },
+    "scripts": {
+      "prerelease": "./bin/release-hook-prerelease.sh"
     },
     "bumpFiles": [
       {
