@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dnb-hugo-garuda.iml" filepath="$PROJECT_DIR$/.idea/dnb-hugo-garuda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/garuda.iml" filepath="$PROJECT_DIR$/.idea/garuda.iml" />
     </modules>
   </component>
 </project>
