@@ -1,3 +1,17 @@
+github.com/dnb-hugo/components/functions v1.0.4 h1:rXgKPRs67cdP6zXRH5Jy7rpcm4uNrXX9dX+NCXZBdH8=
+github.com/dnb-hugo/components/functions v1.0.4/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
+github.com/dnb-hugo/components/robots v1.0.2 h1:b65s0OuyL8CDaUJo2HLi9zWWPpmWlEvnZPyYZqlh4Uw=
+github.com/dnb-hugo/components/robots v1.0.2/go.mod h1:bBjleToKX3GqeJJodfd7+Ue6xU3z5x8Zpm+drSUQmrA=
+github.com/dnb-hugo/components/search-algolia v1.0.4 h1:jaK6S5ZFctQKOM8Hux6HIRAHI3P9XuVstEKkk5GnVik=
+github.com/dnb-hugo/components/search-algolia v1.0.4/go.mod h1:3uihM7xM0kICcTc0GG1G1CWN0LT1lI6TRmyKAJ+Msns=
+github.com/dnb-hugo/components/sitemap v1.0.2 h1:CC7d7aR/dhn/39pc+WallcENko/RTVgzId1BDwytT6Q=
+github.com/dnb-hugo/components/sitemap v1.0.2/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.2.2 h1:wiKi8VmAIIBpDetkRBYeP7BP1Rf/R1mQYSHajMImCgs=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.2.2/go.mod h1:usqGEypv3X3e5ElgBylmFG7HAUySCFK2xok7zs7GqX0=
+github.com/dnb-hugo/libraries/bootstrap5 v1.1.2 h1:bX6ftKiMiZKALvIot+YgztGCaEvNxwFs3AOLx+orkgo=
+github.com/dnb-hugo/libraries/bootstrap5 v1.1.2/go.mod h1:Zz4wloYMz6YIUiMFeDXAgezpVRHI1bLnOzTi/5bzEpk=
+github.com/dnb-hugo/shortcodes v1.1.1 h1:Pgjx07LhBQQaWxGMqXoKJDowESXRPG8Sizmu36NdNjE=
+github.com/dnb-hugo/shortcodes v1.1.1/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822 h1:OaGE9ajMsBea9qiLeKs1ec+nYJ/1JuNYhP/X7f3a0b4=
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
 github.com/twbs/bootstrap v5.0.0-alpha3+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
