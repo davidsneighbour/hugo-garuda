@@ -10,7 +10,7 @@
       </div>
     {{end}}
     {{ if .NextInSection}}
-      <div class="col-6 text-right">
+      <div class="col-6 text-end">
         <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}}</a>
         <span class="icon larger" aria-hidden="true">
           {{ partialCached "icons/angle-right.svg" . }}
