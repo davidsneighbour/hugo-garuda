@@ -27,7 +27,7 @@
 
   .prev {
     @extend .col-sm;
-    @extend .text-right;
-    @extend .float-right;
+    @extend .text-end;
+    @extend .float-end;
   }
 }
