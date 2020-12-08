@@ -1,13 +1,11 @@
 module.exports = {
   'plugins': {
-    '@fullhuman/postcss-purgecss': {
-      content: [
-        './layouts/**/*.html',
-        './content/**/*.md'
-      ],
-      keyframes: true,
-      variables: true
-    },
+    // '@fullhuman/postcss-purgecss': {
+    //   content: [
+    //     './layouts/**/*.html',
+    //     './content/**/*.md'
+    //   ]
+    // },
     'precss': {},
     'autoprefixer': {
       'flexbox': true
