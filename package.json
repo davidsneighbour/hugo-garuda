@@ -32,6 +32,9 @@
     "stylelint-fix": "stylelint assets/scss/ --fix"
   },
   "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "10.0.4",
     "commitizen": "4.2.2",
     "cross-env": "7.0.3",
@@ -39,17 +42,15 @@
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
+    "husky": "4.3.0",
     "pixrem": "5.0.0",
     "postcss": "8.1.14",
     "postcss-cli": "8.3.0",
     "precss": "4.0.0",
+    "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
     "standard-version": "9.0.0",
     "stylelint": "13.8.0",
-    "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git",
-    "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "husky": "4.3.0"
+    "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git"
   },
   "standard-version": {
     "skip": {
