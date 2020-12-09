@@ -12,5 +12,4 @@ require (
 	github.com/dnb-hugo/libraries/bootstrap5 v1.1.4 // indirect
 	github.com/dnb-hugo/shortcodes v1.1.3 // indirect
 	github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822 // indirect
-	github.com/popperjs/popper-core v2.5.4+incompatible // indirect
 )
