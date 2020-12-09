@@ -1,3 +1,5 @@
+github.com/dnb-hugo/blocks/bootstrap5 v0.0.1 h1:Ljgo79OeEMcLRjSSEYbJc0FQOzPg05oGgU89tkLGoxI=
+github.com/dnb-hugo/blocks/bootstrap5 v0.0.1/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
 github.com/dnb-hugo/components/functions v1.0.5 h1:9M+SRFSM1AWphhpL1e8ZVALNCw+2fh1Rot7ZGVZlD8s=
 github.com/dnb-hugo/components/functions v1.0.5/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/robots v1.0.3 h1:OeRfHuYJlMm43aD+0wAwUmq/gGlk8/0HjYknJ//0ug0=
@@ -10,8 +12,8 @@ github.com/dnb-hugo/libraries/bootstrap-icons v1.2.3 h1:UeVm6ZUZtDbJNwuXMKSc8x2S
 github.com/dnb-hugo/libraries/bootstrap-icons v1.2.3/go.mod h1:usqGEypv3X3e5ElgBylmFG7HAUySCFK2xok7zs7GqX0=
 github.com/dnb-hugo/libraries/bootstrap5 v1.1.4 h1:WtQxYn39N5nvfj2FRmahpkLXYrRGYpowe+oYPC0ErNI=
 github.com/dnb-hugo/libraries/bootstrap5 v1.1.4/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
-github.com/dnb-hugo/shortcodes v1.1.1 h1:Pgjx07LhBQQaWxGMqXoKJDowESXRPG8Sizmu36NdNjE=
-github.com/dnb-hugo/shortcodes v1.1.1/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.3 h1:3v/U64oDO4gTAiip+hNGO1TCs1/h9dE9tA/Ux7B1Gw4=
+github.com/dnb-hugo/shortcodes v1.1.3/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822 h1:OaGE9ajMsBea9qiLeKs1ec+nYJ/1JuNYhP/X7f3a0b4=
 github.com/kaushalmodi/hugo-debugprint v0.0.0-20201009173613-d875fcafa822/go.mod h1:vusrDLlGE+4Uc1b4PgM0dI8lJCEqC1o7NjFr8WIfkaQ=
 github.com/popperjs/popper-core v2.5.4+incompatible h1:lp9wCvksdsCLWFKrQuT6cl/2aKXUDvTxOfUr58Ju06g=
