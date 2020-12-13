@@ -78,3 +78,9 @@ article {
     }
   }
 }
+
+//@each $state, $value in $ui-colors {
+//  .alert-type-#{$state} {
+//    border-left: 7px solid $value;
+//  }
+//}

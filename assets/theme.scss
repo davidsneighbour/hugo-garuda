@@ -1,7 +1,7 @@
 // Configuration
 @import "libs/bootstrap/scss/functions";
-@import "libs/bootstrap/scss/mixins";
 @import "libs/bootstrap/scss/variables";
+@import "libs/bootstrap/scss/mixins";
 @import "libs/bootstrap/scss/utilities";
 
 // DNB theme setup
@@ -26,10 +26,11 @@
 @import "libs/bootstrap/scss/nav";
 @import "libs/bootstrap/scss/navbar";
 @import "libs/bootstrap/scss/card";
+//@import "libs/bootstrap/scss/accordion";
 //@import "libs/bootstrap/scss/breadcrumb";
 @import "libs/bootstrap/scss/pagination";
 //@import "libs/bootstrap/scss/badge";
-//@import "libs/bootstrap/scss/alert";
+@import "libs/bootstrap/scss/alert";
 //@import "libs/bootstrap/scss/progress";
 @import "libs/bootstrap/scss/list-group";
 //@import "libs/bootstrap/scss/close";
@@ -70,3 +71,5 @@
 @import "scss/components/topnavigation";
 @import "scss/components/transitions";
 @import "scss/components/local-changes";
+
+@import "scss/debugprint";
