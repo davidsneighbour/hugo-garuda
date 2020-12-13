@@ -77,6 +77,27 @@ other = "November"
 [month_long_12]
 other = "Dezember"
 
+[day_long_1]
+other = "Montag"
+
+[day_long_2]
+other = "Dienstag"
+
+[day_long_3]
+other = "Mittwoch"
+
+[day_long_4]
+other = "Donnerstag"
+
+[day_long_5]
+other = "Freitag"
+
+[day_long_6]
+other = "Samstag"
+
+[day_long_7]
+other = "Sonntag"
+
 [not_found_title]
 other = "Seite nicht gefunden!"
 
