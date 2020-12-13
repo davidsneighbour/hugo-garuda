@@ -50,8 +50,12 @@
     "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
     "standard-version": "9.0.0",
     "stylelint": "13.8.0",
-    "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git"
+    "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git",
+    "browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb"
   },
+  "browserslist": [
+    "extends browserslist-config-dnb"
+  ],
   "standard-version": {
     "skip": {
       "changelog": true
