@@ -36,13 +36,14 @@
     "@commitlint/config-conventional": "11.0.0",
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "10.0.4",
+    "browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
     "commitizen": "4.2.2",
     "cross-env": "7.0.3",
     "cssnano": "4.1.10",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
-    "husky": "4.3.5",
+    "husky": "4.3.6",
     "pixrem": "5.0.0",
     "postcss": "8.1.14",
     "postcss-cli": "8.3.0",
@@ -51,7 +52,9 @@
     "standard-version": "9.0.0",
     "stylelint": "13.8.0",
     "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git",
-    "browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb"
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-merge": "^5.7.0"
   },
   "browserslist": [
     "extends browserslist-config-dnb"
