@@ -16,8 +16,8 @@ github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 h1:bfQ//pGI71fGda7Mxph744Z8+cm8f
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2 h1:f2E9px36dUdjaSt8TwJpsSOkevOKtV2bkbXgCKWk7sI=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
-github.com/dnb-hugo/shortcodes v1.1.4 h1:Iq29AmeIi7ZC+ITG/fVv2Vwv/d0Fs2N9DPnmHapmE2g=
-github.com/dnb-hugo/shortcodes v1.1.4/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.6 h1:FphultPlvgTiCd82FRIV2mN1nm3baxtxrMXCA3F8sKg=
+github.com/dnb-hugo/shortcodes v1.1.6/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible h1:lp9wCvksdsCLWFKrQuT6cl/2aKXUDvTxOfUr58Ju06g=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=

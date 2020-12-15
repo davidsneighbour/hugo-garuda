@@ -12,6 +12,6 @@ require (
 	github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0 // indirect
 	github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 // indirect
 	github.com/dnb-hugo/libraries/popper.js v1.1.2 // indirect
-	github.com/dnb-hugo/shortcodes v1.1.4 // indirect
+	github.com/dnb-hugo/shortcodes v1.1.6 // indirect
 	github.com/popperjs/popper-core v2.5.4+incompatible // indirect
 )
