@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-garuda",
-  "version": "1.4.24",
+  "version": "1.4.25",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@fullhuman/postcss-purgecss": "3.1.0",
     "autoprefixer": "10.1.0",
     "browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
     "commitizen": "4.2.2",
@@ -52,9 +52,9 @@
     "standard-version": "9.0.0",
     "stylelint": "13.8.0",
     "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git",
-    "webpack": "^5.10.1",
-    "webpack-cli": "^4.2.0",
-    "webpack-merge": "^5.7.0"
+    "webpack": "5.10.1",
+    "webpack-cli": "4.2.0",
+    "webpack-merge": "5.7.0"
   },
   "browserslist": [
     "extends browserslist-config-dnb"
