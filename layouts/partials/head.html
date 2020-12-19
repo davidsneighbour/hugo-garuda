@@ -1,5 +1,0 @@
-{{- partial "head/metadata.html" . -}}
-{{- partial "head/twitter.html" . -}}
-{{- with partialCached "func/getStylesheet.html" . -}}
-    <link rel="stylesheet" href="{{ .Permalink }}" integrity="{{ .Data.Integrity }}">
-{{- end -}}
