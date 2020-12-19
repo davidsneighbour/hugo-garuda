@@ -12,7 +12,7 @@ other = "Auf Twitter teilen"
 other = "Auf LinkedIn teilen"
 
 [related_title]
-other = "Verwandte Eintr&auml;ge"
+other = "Verwandte Einträge"
 
 [tags_title]
 other = "Tags"
@@ -102,7 +102,7 @@ other = "Sonntag"
 other = "Seite nicht gefunden!"
 
 [not_found_description]
-other = "Die gew&uuml;nschte Seite wurde nicht gefunden. Fakt."
+other = "Die gewünschte Seite wurde nicht gefunden. Fakt."
 
 [search_title]
 other = "Suchen"
