@@ -54,7 +54,7 @@
     "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git",
     "webpack": "5.10.1",
     "webpack-cli": "4.2.0",
-    "webpack-merge": "5.7.0"
+    "webpack-merge": "5.7.2"
   },
   "browserslist": [
     "extends browserslist-config-dnb"
