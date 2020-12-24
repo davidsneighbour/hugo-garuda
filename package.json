@@ -54,7 +54,13 @@
     "stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb.git",
     "webpack": "5.11.0",
     "webpack-cli": "4.2.0",
-    "webpack-merge": "5.7.2"
+    "webpack-merge": "5.7.2",
+    "@dnb-hugo/browserslist-config-dnb": "github:dnb-hugo/browserslist-config-dnb",
+    "@dnb-hugo/commitlint-config-dnb": "github:dnb-hugo/commitlint-config-dnb",
+    "@dnb-hugo/remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
+    "@dnb-hugo/standard-version-config-dnb": "github:dnb-hugo/standard-version-config-dnb",
+    "@dnb-hugo/stylelint-config-dnb": "github:dnb-hugo/stylelint-config-dnb",
+    "@dnb-hugo/textlint-config-dnb": "github:dnb-hugo/textlint-config-dnb"
   },
   "browserslist": [
     "extends browserslist-config-dnb"
@@ -75,19 +81,6 @@
         "filename": "package.json",
         "type": "json"
       }
-    ]
-  },
-  "stylelint": {
-    "extends": "stylelint-config-dnb/scss",
-    "rules": {
-      "function-disallowed-list": [
-        "lighten",
-        "darken"
-      ]
-    },
-    "ignoreFiles": [
-      "assets/scss/templates/*",
-      "assets/scss/plugins/*"
     ]
   },
   "commitlint": {
