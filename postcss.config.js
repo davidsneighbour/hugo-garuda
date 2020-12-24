@@ -1,17 +1,19 @@
 module.exports = {
+
   'plugins': {
-    // '@fullhuman/postcss-purgecss': {
-    //   content: [
-    //     '**/*.html'
-    //   ]
-    // },
+
+    'stylelint': {},
+
     'precss': {},
+    'pixrem': {},
     'autoprefixer': {
       'flexbox': true
     },
-    'pixrem': {},
+
     'cssnano': {
       'preset': 'default'
     }
+
   }
+
 }
