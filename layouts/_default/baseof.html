@@ -17,8 +17,9 @@
   <title>{{ block "title" . }}{{- with .Title }}{{ . }} | {{ end }}{{ .Site.Title -}}{{ end }}</title>
   {{ partial "func/hook" "head-start" }}
   {{ partial "head" . }}
-  {{ block "schema" . }}{{ end }}
   {{ partial "func/hook" "head-end" }}
+  {{ partial "head/social" . }}
+  {{ block "schema" . }}{{ end }}
 </head>
 <body id="{{ .Site.Params.Siteslug }}">
   {{ partial "func/hook" "body-start" }}
