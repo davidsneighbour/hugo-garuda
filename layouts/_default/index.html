@@ -4,9 +4,9 @@
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}+>
     {{ .Scratch.Set "firstitem" "" }}
     <header class="title">
-      <h2 class="entry-title">
+      <h1 class="entry-title">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </h2>
+      </h1>
       {{ partial "content/meta-top.html" . }}
     </header>
     {{ partial "content/content.html" . }}

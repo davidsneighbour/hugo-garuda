@@ -3,9 +3,10 @@
 article {
   margin-bottom: $spacer*5;
 
-  h2 {
+  .entry-title {
     margin-bottom: 0;
     line-height: 1.2;
+    font-size: 1.7rem;
     text-transform: uppercase;
 
     a {

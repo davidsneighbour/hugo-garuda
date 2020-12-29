@@ -1,7 +1,7 @@
 {{ define "title"}}{{ i18n "header_notes_tagged_with" .Page.Title }}{{ end }}
 
 {{ define "main" }}
-  <h2>
+  <h1>
     <span class="icon large" aria-hidden="true">
       {{ partialCached "icons/user-friends.svg" . }}
     </span>&nbsp;
@@ -11,7 +11,7 @@
         {{ . | humanize }}
       {{ end }}
     </em>
-  </h2>
+  </h1>
   {{ range .Paginator.Pages }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     <header class="title">

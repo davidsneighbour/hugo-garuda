@@ -1,6 +1,6 @@
 {{ define "title"}}Notizen tagged mit {{ .Page.Title }}{{ end }}
 {{ define "main" }}
-  <h2>
+  <h1 class="page-title">
     <span class="icon large" aria-hidden="true">
       {{ partialCached "icons/tags.svg" . }}
     </span>&nbsp;
@@ -10,7 +10,7 @@
         {{ . | humanize }}
       {{ end }}
     </em>
-  </h2>
+  </h1>
   {{ range .Paginator.Pages }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     <header class="title">
