@@ -1,7 +1,10 @@
 github.com/dnb-hugo/blocks/bootstrap5 v0.0.2 h1:v0Tq8cCgsyiW16M7DuQ6spzjJ0ObgTyVSYhkFAtNOik=
 github.com/dnb-hugo/blocks/bootstrap5 v0.0.2/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
+github.com/dnb-hugo/components v0.0.0-20201227064012-2b7bbe3a76dd h1:BpR83c3M5DFQoXLih7vI8TmKKMt959eXn+KuZPzhp1A=
 github.com/dnb-hugo/components/functions v1.0.5 h1:9M+SRFSM1AWphhpL1e8ZVALNCw+2fh1Rot7ZGVZlD8s=
 github.com/dnb-hugo/components/functions v1.0.5/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
+github.com/dnb-hugo/components/opensearch v0.0.2 h1:lD+Y28HB19wpZBaJ+17DU1Y7Yt00BJBNYAIVI0Qn4t0=
+github.com/dnb-hugo/components/opensearch v0.0.2/go.mod h1:njg6EUuNlbY4SbhPqXy+3E6Gebn/EwWo/UKws1Ea1mQ=
 github.com/dnb-hugo/components/robots v1.0.3 h1:OeRfHuYJlMm43aD+0wAwUmq/gGlk8/0HjYknJ//0ug0=
 github.com/dnb-hugo/components/robots v1.0.3/go.mod h1:bBjleToKX3GqeJJodfd7+Ue6xU3z5x8Zpm+drSUQmrA=
 github.com/dnb-hugo/components/search-algolia v1.0.6 h1:5NUVOdd/cMeCPRS9ws/HZbSpHoo5v7RTzXW9KPIQ9v0=

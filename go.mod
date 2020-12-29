@@ -5,6 +5,7 @@ go 1.15
 require (
 	github.com/dnb-hugo/blocks/bootstrap5 v0.0.2 // indirect
 	github.com/dnb-hugo/components/functions v1.0.5 // indirect
+	github.com/dnb-hugo/components/opensearch v0.0.2 // indirect
 	github.com/dnb-hugo/components/robots v1.0.3 // indirect
 	github.com/dnb-hugo/components/search-algolia v1.0.6 // indirect
 	github.com/dnb-hugo/components/sitemap v1.0.3 // indirect
