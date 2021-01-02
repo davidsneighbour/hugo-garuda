@@ -10,7 +10,7 @@ title: "{{ replace .Name "-" " " | title }}"
 description: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-url: /new/url/to/post
+url: /{{ now.Format "2006" }}/{{ now.Format "01" }}/{{ .Name }}
 tags:
     - tag1
     - tag2
