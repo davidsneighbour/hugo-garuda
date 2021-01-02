@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+  {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
   {{ range $paginator.Pages }}
   <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}+>
     {{ .Scratch.Set "firstitem" "" }}
