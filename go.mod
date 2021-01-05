@@ -3,8 +3,8 @@ module github.com/dnb-hugo/garuda
 go 1.15
 
 require (
-	github.com/dnb-hugo/blocks/bootstrap5 v1.0.1 // indirect
-	github.com/dnb-hugo/components/functions v1.0.6 // indirect
+	github.com/dnb-hugo/blocks/bootstrap5 v1.0.2 // indirect
+	github.com/dnb-hugo/components/functions v1.0.7 // indirect
 	github.com/dnb-hugo/components/opensearch v1.0.1 // indirect
 	github.com/dnb-hugo/components/robots v1.0.4 // indirect
 	github.com/dnb-hugo/components/search-algolia v1.0.7 // indirect
