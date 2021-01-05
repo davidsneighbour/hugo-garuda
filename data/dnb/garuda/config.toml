@@ -1,3 +1,12 @@
 # global theme setup data
 # change on your own risk
 hooklink = "https://github.com/dnb-hugo/garuda/wiki/Content-Hooks"
+
+js = [
+  "js/libs/jquery.js",
+  "js/ready.js",
+  "js/libs/moment.js",
+  "js/youtube.js",
+  "js/progress-indicator.js",
+  "libs/bootstrap/dist/js/bootstrap.bundle.js"
+]
