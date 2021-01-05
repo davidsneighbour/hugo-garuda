@@ -19,8 +19,8 @@
     &:hover {
 
       /* filter: blur(2px) hue-rotate(90deg) contrast(200%) sepia(60%); */
-      filter: blur(2px) contrast(300%) sepia(40%);
-      transition: all 0.8s ease;
+      //filter: blur(2px) contrast(300%) sepia(40%);
+      //transition: all 0.8s ease;
     }
 
     @include media-breakpoint-up(md) {
