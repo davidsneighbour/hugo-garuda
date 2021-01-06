@@ -12,8 +12,8 @@ github.com/dnb-hugo/components/sitemap v1.0.4 h1:uhx9B0HbWUmA9sifOZUVQ07kYxianuf
 github.com/dnb-hugo/components/sitemap v1.0.4/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/components/social v0.0.1 h1:JFR55PPlzL7nFT+sf0v82zEb153ZAxsrh0hCMfgy6Bo=
 github.com/dnb-hugo/components/social v0.0.1/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
-github.com/dnb-hugo/debugprint v1.0.0 h1:0UzIJx7N0AEYz4mkYMxg2TyyEVCcXz5YI8mRvRPbF5s=
-github.com/dnb-hugo/debugprint v1.0.0/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
+github.com/dnb-hugo/debugprint v1.0.1 h1:Ac3p7LNDHXdg5El765DDXJZ27IZouVcjUQdyD3lvTQA=
+github.com/dnb-hugo/debugprint v1.0.1/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0 h1:m+BYjWffn2aPsYonqNGtCe0QeBlTM/maL9Yp/bEIiBo=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0/go.mod h1:s2O49TxmELXraw3IZq9zLO+XlORr7eCvwDpQUqJRX7Q=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 h1:bfQ//pGI71fGda7Mxph744Z8+cm8fbK7yVhpgsPA8VQ=
