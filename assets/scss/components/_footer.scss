@@ -63,3 +63,9 @@ footer.taxonomycloud {
     margin-top: 200px;
   }
 }
+
+#copyright .container {
+  a {
+    color: tint-color(map-get($theme-colors,'primary'), 10%);
+  }
+}
