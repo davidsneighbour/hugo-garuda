@@ -1,7 +1,7 @@
 github.com/dnb-hugo/blocks/bootstrap5 v1.0.2 h1:1M+bzm8EClNYxhkpG6p9XLa0OzLqGuUFjqBT4vR1kbk=
 github.com/dnb-hugo/blocks/bootstrap5 v1.0.2/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
-github.com/dnb-hugo/components/functions v1.0.7 h1:cpVzm+xduJN9P0tYXLv/eKDIIzdZstg0VX6z+EORCsE=
-github.com/dnb-hugo/components/functions v1.0.7/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
+github.com/dnb-hugo/components/functions v1.0.8 h1:DeZFCRbCS/OwnKc0rtKLabDtN+f+ONUO8PdfLXUTYOY=
+github.com/dnb-hugo/components/functions v1.0.8/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.1 h1:02SgDrdkYrHu8hxF5nD+Of0JBiOJF5GUSMjRA+bta3w=
 github.com/dnb-hugo/components/opensearch v1.0.1/go.mod h1:njg6EUuNlbY4SbhPqXy+3E6Gebn/EwWo/UKws1Ea1mQ=
 github.com/dnb-hugo/components/robots v1.0.4 h1:ZxRZMV6+Dj1vNDgdoyKgNrC949Ig6RAMEYthV+Kpo6U=
@@ -20,8 +20,8 @@ github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 h1:bfQ//pGI71fGda7Mxph744Z8+cm8f
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2 h1:f2E9px36dUdjaSt8TwJpsSOkevOKtV2bkbXgCKWk7sI=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
-github.com/dnb-hugo/shortcodes v1.1.8 h1:kGP1E+4RrGvcWsWLYYemMP8MCvRkhJK/2muzlI2vlYw=
-github.com/dnb-hugo/shortcodes v1.1.8/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.9 h1:QY2NYFJIa+mp2iQXIZxhJKQ/ACNlLpDLhZGHbuXKuMY=
+github.com/dnb-hugo/shortcodes v1.1.9/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible h1:lp9wCvksdsCLWFKrQuT6cl/2aKXUDvTxOfUr58Ju06g=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
