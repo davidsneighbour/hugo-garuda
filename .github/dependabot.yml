@@ -4,7 +4,7 @@
 version: 2
 updates:
 
-    # managing dependencies for node/npm
+  # managing dependencies for node/npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
@@ -14,7 +14,7 @@ updates:
     assignees:
       - "davidsneighbour"
     reviewers:
-      - "dnb-hugo/dnb-hugo"
+      - "davidsneighbour"
     target-branch: "main"
     open-pull-requests-limit: 999
     pull-request-branch-name:
