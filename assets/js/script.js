@@ -1,3 +1,4 @@
+/* global ready, moment */
 /**********************************************************************
  * Back to top functionality
  *********************************************************************/
@@ -37,7 +38,7 @@ ready(function () {
     let $date2 = moment(new Date());
     let $type = el.getAttribute("data-type");
     if ($type === "months") {
-      el.textContent = parseInt($date2.diff($date1, "months"));
+      el.textContent = parseInt($date2.diff($date1, "months"), 10);
     } else {
       el.textContent = $date2.diff($date1, "days") + 1;
     }

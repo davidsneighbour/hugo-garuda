@@ -87,7 +87,9 @@ class LiteYTEmbed extends HTMLElement {
    * But TBH, I don"t think it"ll happen soon with Site Isolation and split caches adding serious complexity.
    */
   static warmConnections() {
-    if (LiteYTEmbed.preconnected) return;
+    if (LiteYTEmbed.preconnected) {
+      return;
+    }
 
     // The iframe document and most of its subresources come right off youtube.com
     LiteYTEmbed.addPrefetch("preconnect", "https://www.youtube-nocookie.com");
