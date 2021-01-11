@@ -1,5 +1,5 @@
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.3 h1:KyNJ5xSFOETaNyb0DVtTAveh2mf7iEOjPPX+WIRXYSk=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.3/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.5 h1:r4u1Qj1utrOwqDnPMna3cHgFYY63gAh0GswE97U5qQc=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.5/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
 github.com/dnb-hugo/components/functions v1.0.8 h1:DeZFCRbCS/OwnKc0rtKLabDtN+f+ONUO8PdfLXUTYOY=
 github.com/dnb-hugo/components/functions v1.0.8/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.1 h1:02SgDrdkYrHu8hxF5nD+Of0JBiOJF5GUSMjRA+bta3w=
