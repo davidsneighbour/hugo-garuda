@@ -1,5 +1,5 @@
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.2 h1:1M+bzm8EClNYxhkpG6p9XLa0OzLqGuUFjqBT4vR1kbk=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.2/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.3 h1:KyNJ5xSFOETaNyb0DVtTAveh2mf7iEOjPPX+WIRXYSk=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.3/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
 github.com/dnb-hugo/components/functions v1.0.8 h1:DeZFCRbCS/OwnKc0rtKLabDtN+f+ONUO8PdfLXUTYOY=
 github.com/dnb-hugo/components/functions v1.0.8/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.1 h1:02SgDrdkYrHu8hxF5nD+Of0JBiOJF5GUSMjRA+bta3w=
@@ -14,8 +14,8 @@ github.com/dnb-hugo/components/social v0.0.1 h1:JFR55PPlzL7nFT+sf0v82zEb153ZAxsr
 github.com/dnb-hugo/components/social v0.0.1/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
 github.com/dnb-hugo/debugprint v1.0.1 h1:Ac3p7LNDHXdg5El765DDXJZ27IZouVcjUQdyD3lvTQA=
 github.com/dnb-hugo/debugprint v1.0.1/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0 h1:m+BYjWffn2aPsYonqNGtCe0QeBlTM/maL9Yp/bEIiBo=
-github.com/dnb-hugo/libraries/bootstrap-icons v1.3.0/go.mod h1:s2O49TxmELXraw3IZq9zLO+XlORr7eCvwDpQUqJRX7Q=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1 h1:pe+BRZ4UdsQzcVE5/9zb6fllws32HWs3FdPtKu2EHg8=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 h1:bfQ//pGI71fGda7Mxph744Z8+cm8fbK7yVhpgsPA8VQ=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2 h1:f2E9px36dUdjaSt8TwJpsSOkevOKtV2bkbXgCKWk7sI=
@@ -25,4 +25,4 @@ github.com/dnb-hugo/shortcodes v1.1.9/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7h
 github.com/popperjs/popper-core v2.5.4+incompatible h1:lp9wCvksdsCLWFKrQuT6cl/2aKXUDvTxOfUr58Ju06g=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
-github.com/twbs/icons v1.2.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
+github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
