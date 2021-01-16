@@ -2,9 +2,9 @@
 
 #topnavigation {
   @extend .px-0;
-  position: sticky;
-  top: 0;
-  z-index: $zindex-sticky;
+  //position: sticky;
+  //top: 0;
+  //z-index: $zindex-sticky;
 
   background-color: map-get($theme-colors, 'contentbg');
   border-top-left-radius: $border-radius-lg;
