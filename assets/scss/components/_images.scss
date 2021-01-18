@@ -6,6 +6,10 @@
       @extend .img-fluid;
     }
 
+    picture img {
+      background-color: rgba(map-get($theme-colors, 'bodybg'), 0.2);
+    }
+
     figcaption {
       font-style: italic;
     }
