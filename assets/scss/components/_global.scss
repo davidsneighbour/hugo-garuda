@@ -17,6 +17,7 @@ p {
 }
 
 #content {
+  padding-top: $spacer;
   background-color: map-get($theme-colors, 'contentbg');
 }
 
