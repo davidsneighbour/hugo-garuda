@@ -9,10 +9,30 @@ $body-bg: map-get($theme-colors, 'bodybg');
 $body-color: map-get($theme-colors, 'text');
 $grid-gutter-width: 30px;
 
+$font-size-base: 1rem;
+$font-family-sans-serif: 'Raleway', sans-serif;
+$headings-font-family: 'Raleway', sans-serif;
+$font-weight-lighter:         500;
+$font-weight-light:           500;
+$font-weight-normal:          500;
+$font-weight-bold:            700;
+$font-weight-bolder:          700;
+$headings-font-weight:        700;
+
+$font-family-brandheader: 'Erica One', cursive;
+$font-weight-brandheader: 400;
+
+$font-size-brandheader-xs: 40px;
+$font-size-brandheader-sm: 49px;
+$font-size-brandheader-md: 67px;
+$font-size-brandheader-lg: 89px;
+$font-size-brandheader-xl: 109px;
+$font-size-brandheader-xxl: 126px;
+
 // fonts
 $dark: map-get($theme-colors, 'text');
 $blockquote-font-size: $font-size-base;
-$link-color: shade-color($primary, 20%);
+$link-color: $primary;
 $link-hover-color: shade-color($link-color, 10%);
 
 // tables
@@ -65,4 +85,13 @@ $brandcolors: (
   'snapchat': #fffc00
 );
 
-$header-image: 'elephant.jpg';
+$header-image: 'metropolis.jpg';
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
