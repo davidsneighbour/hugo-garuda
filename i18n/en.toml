@@ -1,28 +1,4 @@
 # DNB Hugo / Garuda / English template strings
-[share_title]
-other = "Sharing"
-
-[share_facebook]
-other = "Share on Facebook"
-
-[share_twitter]
-other = "Share on Twitter"
-
-[share_linkedin]
-other = "Share on LinkedIn"
-
-[related_title]
-other = "Related posts"
-
-[tags_title]
-other = "Tags"
-
-[copyrightbyline]
-other = "Created with <a href=\"http://gohugo.io/\">Hugo {{ . }}</a>."
-
-[pagination_title]
-other = "Pagination"
-
 [entries_from]
 other = "Posts from {{ . }}"
 
@@ -31,15 +7,6 @@ other = "All years"
 
 [header_notes_tagged_with]
 other = "Entries tagged with {{ . }}"
-
-[archive_sidebar]
-other = "Archive"
-
-[socialmedia_sidebar]
-other = "Social Media"
-
-[recent_entries_sidebar]
-other = "Recent Posts"
 
 [month_long_1]
 other = "January"
@@ -85,3 +52,6 @@ other = "The requested page was not found."
 
 [search_title]
 other = "Search"
+
+[header_tags]
+other = "Posts tagged mit {{ . }}"
