@@ -2,7 +2,7 @@
 {{ define "main" }}
   <h1 class="page-title">
     <span class="icon large" aria-hidden="true">
-      {{ partialCached "icons/tags.svg" . }}
+      {{ partialCached "icons/tags.svg" . $.Lang }}
     </span>&nbsp;
     <em>
       {{ $name := split .Page.Title " " }}
