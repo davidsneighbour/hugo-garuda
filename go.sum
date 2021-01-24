@@ -1,7 +1,9 @@
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.11 h1:UMMSnxMwaB8amwMtwWmy2NcmJjOa4QchOk2+TehBKNs=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.11/go.mod h1:2kqEXaSqas/kKVXeEwagqHYcApBFUHxaMfzGWUtazgA=
-github.com/dnb-hugo/components/functions v1.0.9 h1:66jbCp0TPCxPsRiNpeqxBBbbj7eCLPcvFVHwTUAYDZQ=
-github.com/dnb-hugo/components/functions v1.0.9/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
+github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45 h1:xcTaKwjer13AH3hpUopnkQSkMHRwI32aJWOj6sLyq3c=
+github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.12 h1:+E/sgokWOGtn2QE7mJoHhV8lwRo4VNE8BY7CDxXm2+Y=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.12/go.mod h1:mATmOIJfro2XDfgMf4MtVbsSu7EN7KRZeK33zlx+DXs=
+github.com/dnb-hugo/components/functions v1.0.10 h1:xArel7xk7Ro6hP6KIjk6icJ0xwqB4taDLdP90XVKsu8=
+github.com/dnb-hugo/components/functions v1.0.10/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.1 h1:02SgDrdkYrHu8hxF5nD+Of0JBiOJF5GUSMjRA+bta3w=
 github.com/dnb-hugo/components/opensearch v1.0.1/go.mod h1:njg6EUuNlbY4SbhPqXy+3E6Gebn/EwWo/UKws1Ea1mQ=
 github.com/dnb-hugo/components/renderhooks v1.0.7 h1:F14wXp3o0Kad78D6NG+MtK6xDjkxAPU/dnhmY2nCt4U=
@@ -20,9 +22,11 @@ github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1 h1:pe+BRZ4UdsQzcVE5/9zb6fll
 github.com/dnb-hugo/libraries/bootstrap-icons v1.3.1/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0 h1:bfQ//pGI71fGda7Mxph744Z8+cm8fbK7yVhpgsPA8VQ=
 github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml8YGxoLw7VWkAapiZoeHtg=
+github.com/dnb-hugo/libraries/lazysizes v1.0.1 h1:Sw96Nn51YIpaEFSxGrpV/H3H3KUVEU2ifglSBuWz+yE=
+github.com/dnb-hugo/libraries/lazysizes v1.0.1/go.mod h1:2eOOTPlEeTwK0yhh2s8YM8rx6hGmJuNi7qJSXXqPAyg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
-github.com/dnb-hugo/shortcodes v1.1.12 h1:TYWMjugOQDXItWsyPkG68ESwH3mFyQJ7zMfmL7mTk70=
-github.com/dnb-hugo/shortcodes v1.1.12/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.13 h1:4tFFVkWNL80AwaOtaLEfT5dan7YDQ0RVyADxGjwmfhI=
+github.com/dnb-hugo/shortcodes v1.1.13/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
