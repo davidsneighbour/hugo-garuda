@@ -25,8 +25,8 @@ github.com/dnb-hugo/libraries/bootstrap5 v1.2.0/go.mod h1:f1PHdrXdCZgkLcbuiTQ9ml
 github.com/dnb-hugo/libraries/lazysizes v1.0.1 h1:Sw96Nn51YIpaEFSxGrpV/H3H3KUVEU2ifglSBuWz+yE=
 github.com/dnb-hugo/libraries/lazysizes v1.0.1/go.mod h1:2eOOTPlEeTwK0yhh2s8YM8rx6hGmJuNi7qJSXXqPAyg=
 github.com/dnb-hugo/libraries/popper.js v1.1.2/go.mod h1:I10AsR1CyPWU5cpsSYhpZaeHCfdMownxSDcye/WJvlc=
-github.com/dnb-hugo/shortcodes v1.1.13 h1:4tFFVkWNL80AwaOtaLEfT5dan7YDQ0RVyADxGjwmfhI=
-github.com/dnb-hugo/shortcodes v1.1.13/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
+github.com/dnb-hugo/shortcodes v1.1.14 h1:+t1rYDnQBcXx8ugn2H7zeDFgpGRte5iEiGbyXCANrxI=
+github.com/dnb-hugo/shortcodes v1.1.14/go.mod h1:sME2rlv6M2XDrBmuVRKFFX3bVW3fDk7hZ0P+2HKh6yQ=
 github.com/popperjs/popper-core v2.5.4+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta1+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.3.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
