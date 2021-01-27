@@ -2,6 +2,7 @@
 # change on your own risk
 hooklink = "https://github.com/dnb-hugo/garuda/wiki/Content-Hooks"
 
+[plugins]
 js = [
   "js/libs/jquery.js",
   "js/ready.js",
@@ -10,3 +11,4 @@ js = [
   "libs/bootstrap/dist/js/bootstrap.bundle.js",
   "js/service-worker.js"
 ]
+esBuildParams = []
