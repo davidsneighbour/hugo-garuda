@@ -1,7 +1,7 @@
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45 h1:xcTaKwjer13AH3hpUopnkQSkMHRwI32aJWOj6sLyq3c=
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.17 h1:MJCF21166NapSFDv/SStRq0AiYwMx7FHM5c7F7GHtUw=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.17/go.mod h1:R4+nDLN/VUe5kN3Ub2aDynMdTb6v+c2t+7WP1MuAe/4=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.18 h1:Agut+/Qgumx283mt9QWbxmLOosVQMuK2VTAtUaPzxEA=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.18/go.mod h1:R4+nDLN/VUe5kN3Ub2aDynMdTb6v+c2t+7WP1MuAe/4=
 github.com/dnb-hugo/components/functions v1.0.15 h1:sCW1ehaaPzzgeMasXaknP81L78f28vNenvteGRdFz1k=
 github.com/dnb-hugo/components/functions v1.0.15/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.2 h1:1oeFn8WCnGELcp9NhMi/91OwQYvGV17MDJy1WSWiL7M=
