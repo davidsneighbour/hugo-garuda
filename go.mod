@@ -4,7 +4,7 @@ go 1.15
 
 require (
 	github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45 // indirect
-	github.com/dnb-hugo/blocks/bootstrap5 v1.0.15 // indirect
+	github.com/dnb-hugo/blocks/bootstrap5 v1.0.16 // indirect
 	github.com/dnb-hugo/components/functions v1.0.14 // indirect
 	github.com/dnb-hugo/components/opensearch v1.0.2 // indirect
 	github.com/dnb-hugo/components/pwa v0.0.1 // indirect
