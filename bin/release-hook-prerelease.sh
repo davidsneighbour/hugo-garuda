@@ -16,6 +16,7 @@ declare -a MODULES=(
   'github.com/dnb-hugo/blocks/bootstrap5'
   'github.com/dnb-hugo/libraries/bootstrap5'
   'github.com/dnb-hugo/libraries/bootstrap-icons'
+  'github.com/dnb-hugo/libraries/dayjs'
   'github.com/dnb-hugo/libraries/popper.js'
 )
 declare -a REPLACE=(
@@ -34,6 +35,7 @@ declare -a REPLACE=(
   '/home/patrick/Projects/dnb-hugo/blocks/bootstrap5'
   '/home/patrick/Projects/dnb-hugo/libraries/bootstrap5'
   '/home/patrick/Projects/dnb-hugo/libraries/bootstrap-icons'
+  '/home/patrick/Projects/dnb-hugo/libraries/dayjs'
   '/home/patrick/Projects/dnb-hugo/libraries/popper.js'
 )
 
