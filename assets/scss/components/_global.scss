@@ -1,5 +1,17 @@
 /* stylelint-disable at-rule-no-unknown */
 
+body * {
+  /**
+   * see
+   * https://web.dev/content-visibility/
+   * https://drafts.csswg.org/css-contain/
+   * https://caniuse.com/mdn-css_properties_content-visibility
+   * https://caniuse.com/css-containment
+   */
+  //content-visibility: auto;
+  //contains-intrinsic-size: 400px;
+}
+
 body,
 h1,
 h2,
