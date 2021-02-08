@@ -1,13 +1,13 @@
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45 h1:xcTaKwjer13AH3hpUopnkQSkMHRwI32aJWOj6sLyq3c=
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.20 h1:iSpLdS3UCtpiMeEOy4bA0uflL7UU+AYTm8Wi5ezxdJc=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.20/go.mod h1:L+qNBp64WY+BX3NlPnSeaA+UzTaJyeoqEMHaxfeefws=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.21 h1:E9hgedE1A75vYuEo7dnzlbbFr/Ept5S7FrnooFoKeTg=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.21/go.mod h1:L+qNBp64WY+BX3NlPnSeaA+UzTaJyeoqEMHaxfeefws=
 github.com/dnb-hugo/components/functions v1.0.16 h1:oJM2gZDyir+LDr17jn//TbD/4QUUsaIXMmUEXALILx4=
 github.com/dnb-hugo/components/functions v1.0.16/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.2 h1:1oeFn8WCnGELcp9NhMi/91OwQYvGV17MDJy1WSWiL7M=
 github.com/dnb-hugo/components/opensearch v1.0.2/go.mod h1:njg6EUuNlbY4SbhPqXy+3E6Gebn/EwWo/UKws1Ea1mQ=
-github.com/dnb-hugo/components/pwa v0.0.4 h1:322k10eIXYkEmgis//Ol2Sqxo1UwhTP7Nn2DAwNlIh8=
-github.com/dnb-hugo/components/pwa v0.0.4/go.mod h1:0HFgY9Om7yJqjwKPZDatqyy5Kna6w6XAHj0r6aZmCjU=
+github.com/dnb-hugo/components/pwa v0.0.6 h1:BLxBrFrt68H/C/8sE/ufMep6DaFYxv38mbkgynPlQ1w=
+github.com/dnb-hugo/components/pwa v0.0.6/go.mod h1:0HFgY9Om7yJqjwKPZDatqyy5Kna6w6XAHj0r6aZmCjU=
 github.com/dnb-hugo/components/renderhooks v1.0.8 h1:DP+eZbpYDqQUymYFiWD0wnIWqii3czrtNzAQqf1p51E=
 github.com/dnb-hugo/components/renderhooks v1.0.8/go.mod h1:KO1DI9x5FReibb7cyZfw8AOnfUch+K527Ueb74/6qVo=
 github.com/dnb-hugo/components/robots v1.0.5 h1:DtlT5uz1P3HkLuGvWptomdv69j1ByIFF6Scddu8fkNM=
