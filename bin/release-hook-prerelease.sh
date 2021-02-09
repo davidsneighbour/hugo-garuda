@@ -47,8 +47,8 @@ done
 hugo mod get -u ./...
 hugo mod tidy
 
-git add go.mod
-git add go.sum
+git add --force go.mod
+git add --force go.sum
 
 for i in "${!MODULES[@]}"; do
   go mod edit -replace "${MODULES[$i]}"="${REPLACE[$i]}"
