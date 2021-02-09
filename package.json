@@ -1,82 +1,15 @@
 {
   "name": "@dnb-hugo/garuda",
-  "version": "1.4.76",
+  "description": "An opiniated colorful theme for Hugo by David's Neighbour",
+  "version": "1.4.77",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "contributors": [
-    {
-      "name": "Patrick Kollitsch",
-      "email": "patrick@davids-neighbour.com",
-      "web": "https://davids-neighbour.com"
-    }
-  ],
-  "description": "An opiniated colorful theme for Hugo by David's Neighbour",
-  "license": "MIT",
-  "private": true,
-  "repository": "dnb-hugo/garuda",
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-customizable"
-    }
-  },
-  "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress",
-    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
-    "stylelint": "stylelint assets/scss/",
-    "stylelint2": "stylelint",
-    "stylelint-fix": "stylelint assets/scss/ --fix"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "@fullhuman/postcss-purgecss": "4.0.0",
-    "autoprefixer": "10.2.3",
-    "commitizen": "4.2.3",
-    "cross-env": "7.0.3",
-    "cssnano": "4.1.10",
-    "cz-conventional-changelog": "3.3.0",
-    "cz-customizable": "6.3.0",
-    "cz-customizable-ghooks": "2.0.0",
-    "husky": "4.3.8",
-    "pixrem": "5.0.0",
-    "postcss": "8.2.4",
-    "postcss-cli": "8.3.1",
-    "precss": "4.0.0",
-    "standard-version": "9.1.0",
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config"
-  },
   "browserslist": [
     "extends browserslist-config-dnb"
   ],
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    },
-    "scripts": {
-      "prerelease": "./bin/release-hook-prerelease.sh"
-    },
-    "bumpFiles": [
-      {
-        "filename": ".version",
-        "type": "plain-text"
-      },
-      {
-        "filename": "package.json",
-        "type": "json"
-      }
-    ]
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -102,5 +35,74 @@
         ]
       ]
     }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "contributors": [
+    {
+      "name": "Patrick Kollitsch",
+      "email": "patrick@davids-neighbour.com",
+      "web": "https://davids-neighbour.com"
+    }
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
+    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
+    "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
+    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
+    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
+    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
+    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "@fullhuman/postcss-purgecss": "4.0.0",
+    "autoprefixer": "10.2.4",
+    "commitizen": "4.2.3",
+    "cross-env": "7.0.3",
+    "cssnano": "4.1.10",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "6.3.0",
+    "cz-customizable-ghooks": "2.0.0",
+    "husky": "5.0.9",
+    "pixrem": "5.0.0",
+    "postcss": "8.2.5",
+    "postcss-cli": "8.3.1",
+    "precss": "4.0.0",
+    "standard-version": "9.1.0",
+    "workbox-cacheable-response": "^6.1.0",
+    "workbox-expiration": "^6.1.0"
+  },
+  "license": "MIT",
+  "private": true,
+  "repository": "dnb-hugo/garuda",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"v\" && ./bin/release-hook-postrelease.sh",
+    "stylelint": "stylelint assets/scss/",
+    "stylelint-fix": "stylelint assets/scss/ --fix",
+    "stylelint2": "stylelint"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "scripts": {
+      "prerelease": "./bin/release-hook-prerelease.sh"
+    },
+    "bumpFiles": [
+      {
+        "filename": ".version",
+        "type": "plain-text"
+      },
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
   }
 }
