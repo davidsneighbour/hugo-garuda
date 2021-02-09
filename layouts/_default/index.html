@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
   {{ range $paginator.Pages }}
-  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}+>
+  <article{{ with .File }} id="x{{ .UniqueID }}"{{ end }}>
     {{ .Scratch.Set "firstitem" "" }}
     <header class="title">
       <h1 class="entry-title">
