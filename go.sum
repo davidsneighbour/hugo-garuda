@@ -1,7 +1,7 @@
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45 h1:xcTaKwjer13AH3hpUopnkQSkMHRwI32aJWOj6sLyq3c=
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.24 h1:D5fcWeW1QzQqotygFtZ0cq8KCG6NTuS1HqmKbTZZsv0=
-github.com/dnb-hugo/blocks/bootstrap5 v1.0.24/go.mod h1:D6Cwj/5ECu44z9TH6rOOgm8slmFE64OernL1//CmYSI=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.25 h1:bVX1rPuUzyS3IZI2ZxTSOsF3XSoIKl9b1wJ88AEJDNA=
+github.com/dnb-hugo/blocks/bootstrap5 v1.0.25/go.mod h1:RPomQ2LDhY5nVHr5CnIyb36WIr/Zw3mDkcWJoO0IjLw=
 github.com/dnb-hugo/components/functions v1.0.17 h1:W913rHJlR6N2vVnhS+v9GJnPu7YNYqvym24h4IXyF4E=
 github.com/dnb-hugo/components/functions v1.0.17/go.mod h1:D1wuewBIRi/K+JS40raRu4iPYReMNYguOF/vXJ7Jv2c=
 github.com/dnb-hugo/components/opensearch v1.0.2 h1:1oeFn8WCnGELcp9NhMi/91OwQYvGV17MDJy1WSWiL7M=
@@ -20,8 +20,8 @@ github.com/dnb-hugo/components/social v0.0.4 h1:dPv9UeKY+fwZ/PBp3eTp/SMoxSF31bTS
 github.com/dnb-hugo/components/social v0.0.4/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
 github.com/dnb-hugo/debugprint v1.0.7 h1:4vwpai0T7Y9rH5ZPUwvUN0rnBi6Ktk/QWCmNNcn8/nU=
 github.com/dnb-hugo/debugprint v1.0.7/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
-github.com/dnb-hugo/libraries/bootstrap-icons v1.3.3 h1:78ZmM2gWs7JbT8gUs1WawYN8i7EwkfHMm68Zl5I9Nfw=
-github.com/dnb-hugo/libraries/bootstrap-icons v1.3.3/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.4.0 h1:iQQmfS9GbAPycrnY+DXWF9NvjaHF1zJ2T3NSTw5A+zU=
+github.com/dnb-hugo/libraries/bootstrap-icons v1.4.0/go.mod h1:sgKUgwtMNDl9TEalhSHlD6hKoMIsQq/Eps8rDV1Sd28=
 github.com/dnb-hugo/libraries/bootstrap5 v1.3.1 h1:I1DZ2zSU2aGOLkqQJQDuW8J5vZDC8jqPaGJ8xZ8oxmk=
 github.com/dnb-hugo/libraries/bootstrap5 v1.3.1/go.mod h1:F3xLwtpy+5ZNRrRvbs03MFIS21Sc4i8MY9U7gkd8wn0=
 github.com/dnb-hugo/libraries/dayjs v0.0.4 h1:UkJmYFfW5UBuUlgNkhRYJky7r8/llSTThv9uoOtmYXE=
@@ -29,8 +29,8 @@ github.com/dnb-hugo/libraries/dayjs v0.0.4/go.mod h1:rpb3QBTz/xqzvU7t9zmGIlqZOSt
 github.com/dnb-hugo/libraries/lazysizes v1.0.3 h1:5aGVSusgeZjtsSdbZgrd3p4v8ESc+OmbSVvbqLBnIMs=
 github.com/dnb-hugo/libraries/lazysizes v1.0.3/go.mod h1:50HoIQcIj2aLYGR92ReyiKOeWy38/y6/yijecjKLE9I=
 github.com/dnb-hugo/libraries/popper.js v1.1.3/go.mod h1:WMoKFULe6T8jflA0sDWoXeEEgDBGRm/ttx/V7tJCWCw=
-github.com/dnb-hugo/shortcodes v1.2.9 h1:4esUOeFTZib/9RRbK4Keg9m19D/ET3GN/AhsDbJV/SA=
-github.com/dnb-hugo/shortcodes v1.2.9/go.mod h1:3d4dGummignTNkrBDx4k6EJ4VEpwtQMo3fZ8CsbtsQ0=
+github.com/dnb-hugo/shortcodes v1.2.10 h1:fhtp1bz7q1xJvLhsGG3sd5sW6XulCwsDyd0jo/7dU+s=
+github.com/dnb-hugo/shortcodes v1.2.10/go.mod h1:3d4dGummignTNkrBDx4k6EJ4VEpwtQMo3fZ8CsbtsQ0=
 github.com/paulirish/lite-youtube-embed v0.1.3/go.mod h1:9nuUWCzbFF/vvl3ClpZ1KsYFi/hlKjVOkmG8E+nsGDY=
 github.com/popperjs/popper-core v2.6.0+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.0-beta2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
