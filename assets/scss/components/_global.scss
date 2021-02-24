@@ -37,6 +37,10 @@ p {
   background-color: map-get($theme-colors, 'contentbg');
 }
 
+#maincolumn {
+  padding-right: 0;
+}
+
 h1 {
   text-transform: uppercase;
 
