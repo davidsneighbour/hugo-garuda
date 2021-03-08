@@ -59,7 +59,7 @@
     "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
     "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
     "@fullhuman/postcss-purgecss": "4.0.0",
-    "autoprefixer": "10.2.4",
+    "autoprefixer": "10.2.5",
     "commitizen": "4.2.3",
     "cross-env": "7.0.3",
     "cssnano": "4.1.10",
