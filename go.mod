@@ -16,5 +16,5 @@ require (
 	github.com/dnb-hugo/libraries/bootstrap5 v1.3.1 // indirect
 	github.com/dnb-hugo/libraries/dayjs v0.0.4 // indirect
 	github.com/dnb-hugo/libraries/lazysizes v1.0.3 // indirect
-	github.com/dnb-hugo/shortcodes v1.3.3 // indirect
+	github.com/dnb-hugo/shortcodes v1.3.4 // indirect
 )
