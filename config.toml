@@ -13,7 +13,11 @@ path = "github.com/dnb-hugo/blocks/bootstrap5"
 disabled = false
 
 [[module.imports]]
-path = "github.com/dnb-hugo/shortcodes"
+path = "github.com/dnb-hugo/shortcodes/collection"
+disabled = false
+
+[[module.imports]]
+path = "github.com/dnb-hugo/shortcodes/youtube"
 disabled = false
 
 [[module.imports]]
