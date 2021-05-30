@@ -20,8 +20,6 @@ github.com/dnb-hugo/components/sitemap v1.0.5 h1:U56rIlXI0rLeR4g0BlzzkQ9WSEq53x6
 github.com/dnb-hugo/components/sitemap v1.0.5/go.mod h1:ubgzNoQXdBxRSUC/szjFzv+CDpWqkEtZplhcqxPGDmY=
 github.com/dnb-hugo/components/social v0.0.4 h1:dPv9UeKY+fwZ/PBp3eTp/SMoxSF31bTS9lWyYh6flug=
 github.com/dnb-hugo/components/social v0.0.4/go.mod h1:JhfsOeIFw1pQCOrPq7iz/kZh4/b3MIT/CC9R56yE+gs=
-github.com/dnb-hugo/components/welcomments v0.0.6 h1:QE3qwSNHVhl/w75wCijavCRIwYCPOX+lupYAIxway1g=
-github.com/dnb-hugo/components/welcomments v0.0.6/go.mod h1:sGczLellS1CTnkisb0Kc9MBagn2VpY4B9MjRSGpu6Ro=
 github.com/dnb-hugo/debugprint v1.0.7 h1:4vwpai0T7Y9rH5ZPUwvUN0rnBi6Ktk/QWCmNNcn8/nU=
 github.com/dnb-hugo/debugprint v1.0.7/go.mod h1:YMvTiP34ADcKHOtCpjeIuzfDyXrh0mSKvfjVt/WXpLM=
 github.com/dnb-hugo/libraries/bootstrap-icons v1.4.6 h1:yaj0aj03jH2C7ZLYTSmUj34XD5BfLuau9q2rp5ZDxVM=
