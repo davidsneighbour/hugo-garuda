@@ -12,11 +12,10 @@ require (
 	github.com/dnb-org/components/search-algolia v1.0.12 // indirect
 	github.com/dnb-org/components/sitemap v1.0.8 // indirect
 	github.com/dnb-org/components/social v0.0.9 // indirect
-	github.com/dnb-org/components/welcomments v0.0.8 // indirect
 	github.com/dnb-org/debug v1.3.0 // indirect
 	github.com/dnb-org/libraries/bootstrap-icons v1.5.3 // indirect
-	github.com/dnb-org/libraries/bootstrap5/v2 v2.2.0 // indirect
-	github.com/dnb-org/libraries/dayjs v1.0.2 // indirect
+	github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1 // indirect
+	github.com/dnb-org/libraries/dayjs v1.0.3 // indirect
 	github.com/dnb-org/libraries/lazysizes v1.1.2 // indirect
 	github.com/dnb-org/shortcodes/collection v1.4.17 // indirect
 	github.com/dnb-org/shortcodes/youtube v1.4.16 // indirect
