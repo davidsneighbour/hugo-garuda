@@ -1,6 +1,6 @@
 ---
 
-# This is the dnb-hugo-garuda frontmatter template. 
+# This is the dnb-org-garuda frontmatter template. 
 # Remove comments and items you won't need in your daily work with Hugo.
 # Copy a smaller version of this file to /archetypes/default.md in your
 # own repository to overwrite this version.

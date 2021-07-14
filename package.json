@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-hugo/garuda",
+  "name": "@dnb-org/garuda",
   "description": "An opiniated colorful theme for Hugo by David's Neighbour",
   "version": "1.4.88",
   "author": {
@@ -51,13 +51,13 @@
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
-    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
-    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "@dnb-org/browserslist-config": "github:dnb-org/browserslist-config",
+    "@dnb-org/commitlint-config": "github:dnb-org/commitlint-config",
+    "@dnb-org/eslint-config": "github:dnb-org/eslint-config",
+    "@dnb-org/remark-preset-lint": "github:dnb-org/remark-preset-lint",
+    "@dnb-org/standard-version-config": "github:dnb-org/standard-version-config",
+    "@dnb-org/stylelint-config": "github:dnb-org/stylelint-config",
+    "@dnb-org/textlint-config": "github:dnb-org/textlint-config",
     "@fullhuman/postcss-purgecss": "4.0.3",
     "autoprefixer": "10.2.6",
     "commitizen": "4.2.4",
@@ -76,7 +76,7 @@
   },
   "license": "MIT",
   "private": true,
-  "repository": "dnb-hugo/garuda",
+  "repository": "dnb-org/garuda",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --progress",
     "release": "standard-version --release-as patch -a -t \"v\" && ./bin/release-hook-postrelease.sh",

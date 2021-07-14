@@ -3,7 +3,7 @@
 | :exclamation:  This documentation is work in progress and can change in parts over time.   |
 |----|
 
-See [dnb-hugo-garuda-template](/davidsneighbour/dnb-hugo-garuda-template) for an example repo that you can use as a template to work with this theme. You can fork that repo without adding all the revisions to date. Please keep issues related to this template in [this themes repository](/davidsneighbour/dnb-hugo-garuda/issues).
+See [dnb-org-garuda-template](/davidsneighbour/dnb-org-garuda-template) for an example repo that you can use as a template to work with this theme. You can fork that repo without adding all the revisions to date. Please keep issues related to this template in [this themes repository](/davidsneighbour/dnb-org-garuda/issues).
 
 ## Installation
 

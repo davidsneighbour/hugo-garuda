@@ -1,8 +1,8 @@
 name = "DNB Hugo Garuda"
 license = "MIT"
-licenselink = "https://github.com/dnb-hugo/garuda/blob/master/LICENSE"
+licenselink = "https://github.com/dnb-org/garuda/blob/master/LICENSE"
 description = "An opinionated and colourful theme for Hugo."
-homepage = "https://github.com/dnb-hugo/garuda"
+homepage = "https://github.com/dnb-org/garuda"
 tags = ["blog"]
 features = ["algolia-search", "customisation"]
 min_version = "0.70.0"

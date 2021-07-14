@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "@dnb-hugo/remark-preset-lint-dnb"
+    "@dnb-org/remark-config"
   ]
 }

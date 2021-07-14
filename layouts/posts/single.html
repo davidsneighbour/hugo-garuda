@@ -8,7 +8,7 @@
     </header>
     {{ partial "content/content.html" . }}
 
-    {{ partial "welcomments/comments" (dict "context" . "websiteId" site.Params.welcommentsId) }}
+{{/*    {{ partial "welcomments/comments" (dict "context" . "websiteId" site.Params.welcommentsId) }}*/}}
 
 {{/*    {{ if (not (isset .Params "hide_comments")) | or (eq .Params.hide_comments "false") }}*/}}
 {{/*      {{ with $.Param "dnb.comments.repo" }}*/}}

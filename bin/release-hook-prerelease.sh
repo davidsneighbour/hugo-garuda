@@ -1,23 +1,22 @@
 #!/bin/bash
 
 declare -a MODULES=(
-  'github.com/dnb-hugo/debugprint'
-  'github.com/dnb-hugo/garuda'
-  'github.com/dnb-hugo/components/favicon'
-  'github.com/dnb-hugo/components/functions'
-  'github.com/dnb-hugo/components/netlification'
-  'github.com/dnb-hugo/components/opensearch'
-  'github.com/dnb-hugo/components/pwa'
-  'github.com/dnb-hugo/components/renderhooks'
-  'github.com/dnb-hugo/components/robots'
-  'github.com/dnb-hugo/components/search-algolia'
-  'github.com/dnb-hugo/components/sitemap'
-  'github.com/dnb-hugo/shortcodes'
-  'github.com/dnb-hugo/blocks/bootstrap5'
-  'github.com/dnb-hugo/libraries/bootstrap5'
-  'github.com/dnb-hugo/libraries/bootstrap-icons'
-  'github.com/dnb-hugo/libraries/dayjs'
-  'github.com/dnb-hugo/libraries/popper.js'
+  'github.com/dnb-org/debugprint'
+  'github.com/dnb-org/garuda'
+  'github.com/dnb-org/components/favicon'
+  'github.com/dnb-org/components/functions'
+  'github.com/dnb-org/components/netlification'
+  'github.com/dnb-org/components/opensearch'
+  'github.com/dnb-org/components/pwa'
+  'github.com/dnb-org/components/renderhooks'
+  'github.com/dnb-org/components/robots'
+  'github.com/dnb-org/components/search-algolia'
+  'github.com/dnb-org/components/sitemap'
+  'github.com/dnb-org/shortcodes'
+  'github.com/dnb-org/blocks/bootstrap5'
+  'github.com/dnb-org/libraries/bootstrap5'
+  'github.com/dnb-org/libraries/bootstrap-icons'
+  'github.com/dnb-org/libraries/dayjs'
 )
 declare -a REPLACE=(
   '/home/patrick/Projects/dnb-hugo/debugprint'
@@ -36,7 +35,6 @@ declare -a REPLACE=(
   '/home/patrick/Projects/dnb-hugo/libraries/bootstrap5'
   '/home/patrick/Projects/dnb-hugo/libraries/bootstrap-icons'
   '/home/patrick/Projects/dnb-hugo/libraries/dayjs'
-  '/home/patrick/Projects/dnb-hugo/libraries/popper.js'
 )
 
 for i in "${MODULES[@]}"

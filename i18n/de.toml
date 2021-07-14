@@ -8,42 +8,6 @@ other = "Alle Jahre"
 [header_notes_tagged_with]
 other = "Notizen tagged mit {{ . }}"
 
-[month_long_1]
-other = "Januar"
-
-[month_long_2]
-other = "Februar"
-
-[month_long_3]
-other = "März"
-
-[month_long_4]
-other = "April"
-
-[month_long_5]
-other = "Mai"
-
-[month_long_6]
-other = "Juni"
-
-[month_long_7]
-other = "Juli"
-
-[month_long_8]
-other = "August"
-
-[month_long_9]
-other = "September"
-
-[month_long_10]
-other = "Oktober"
-
-[month_long_11]
-other = "November"
-
-[month_long_12]
-other = "Dezember"
-
 [not_found_title]
 other = "Seite nicht gefunden!"
 
