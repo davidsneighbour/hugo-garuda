@@ -24,6 +24,8 @@ github.com/dnb-org/debug v1.3.0 h1:w9jTmF/3UHFdyu9nzEmLfhqok2wlV9Ol0E55Wa4yQ9k=
 github.com/dnb-org/debug v1.3.0/go.mod h1:0z/MDK1qgyqHmMM8mSrexsoPSTpJgIsNu3r6nw5zHAU=
 github.com/dnb-org/libraries/bootstrap-icons v1.5.3 h1:YuwtquAsFASJkdSx60YQtadaRRjgEfARAdql512TMAE=
 github.com/dnb-org/libraries/bootstrap-icons v1.5.3/go.mod h1:GV5cqlkUFND73L0BZduppXZslzONfx9Kmj8/qFiUOtc=
+github.com/dnb-org/libraries/bootstrap5/v2 v2.2.0 h1:Z/Q00CFljrLFhNrdmZUdZI8fN4yrrLFRMrou7BS8MVw=
+github.com/dnb-org/libraries/bootstrap5/v2 v2.2.0/go.mod h1:lP8eIO2UP1Lkhm07DGS0py3bH+GytD4x4cnIp8lC3hU=
 github.com/dnb-org/libraries/dayjs v1.0.2 h1:73U7qqamkk04a8tVEif+au5BSWSr1bxNmJxAKLO7YTQ=
 github.com/dnb-org/libraries/dayjs v1.0.2/go.mod h1:we26+pw7hPIOCprJ2y+OTUFurDmJ2L10dHrKyfDusrc=
 github.com/dnb-org/libraries/lazysizes v1.1.2 h1:l4nEARTRC1C36SNEtLh4ivhlg1wLdv28YRC9QzgURho=
@@ -33,5 +35,8 @@ github.com/dnb-org/shortcodes/collection v1.4.17/go.mod h1:jY4DOilX3w3F/NIuVyqLI
 github.com/dnb-org/shortcodes/youtube v1.4.16 h1:srA1K+TW/Yd8IxvQPN4uARDLMd8m2zS78oi5Sa/IG3Q=
 github.com/dnb-org/shortcodes/youtube v1.4.16/go.mod h1:zuuEmKods4+g66Q0CI4zJ6R716ZNs29ZkPfCJnrlKA8=
 github.com/iamkun/dayjs v1.10.5/go.mod h1:uH9r5H8xqz4FDkXigkECWrNPl70HjHNau53364yMLzA=
+github.com/iamkun/dayjs v1.10.6 h1:Rz2K6zhFoEf1oqAYbJRenNT1M8AzRulE6d6jiBWCuNo=
+github.com/iamkun/dayjs v1.10.6/go.mod h1:uH9r5H8xqz4FDkXigkECWrNPl70HjHNau53364yMLzA=
 github.com/paulirish/lite-youtube-embed v0.2.0/go.mod h1:9nuUWCzbFF/vvl3ClpZ1KsYFi/hlKjVOkmG8E+nsGDY=
+github.com/twbs/bootstrap v5.0.2+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.5.0/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
