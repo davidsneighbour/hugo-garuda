@@ -16,8 +16,8 @@ require (
 	github.com/dnb-org/hooks v1.0.11 // indirect
 	github.com/dnb-org/libraries/bootstrap-icons v1.5.3 // indirect
 	github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1 // indirect
-	github.com/dnb-org/libraries/dayjs v1.0.3 // indirect
-	github.com/dnb-org/libraries/lazysizes v1.1.2 // indirect
+	github.com/dnb-org/libraries/dayjs v1.0.4 // indirect
+	github.com/dnb-org/libraries/lazysizes v1.1.3 // indirect
 	github.com/dnb-org/shortcodes/collection v1.4.17 // indirect
 	github.com/dnb-org/shortcodes/youtube v1.4.16 // indirect
 	github.com/iamkun/dayjs v1.10.6 // indirect
