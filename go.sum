@@ -1,7 +1,7 @@
 github.com/aFarkas/lazysizes v0.0.0-20210123121749-0e985e8d8c45/go.mod h1:xl3heUINAn0oPowV1biDQ2Pyw1w3x66I7KEbWkaxox0=
-github.com/dnb-org/blocks/bootstrap5 v1.0.36 h1:jJJidkcFsRkQJEjbAwfdg1kdJ8mIVJFFi5Mk4uxBbgo=
-github.com/dnb-org/blocks/bootstrap5 v1.0.36/go.mod h1:FktxMiK+g9xVa+QL6Z7Xx4IC6IwdYmFUj+4xIRGKSRU=
-github.com/dnb-org/components/auditor v0.0.0-20210714115124-a48062131853/go.mod h1:lc2H5PPI6ohpx0LaOP1/fMQtE+YDA7xPZqr24OzmRII=
+github.com/dnb-org/blocks/bootstrap5 v1.0.37 h1:a4MBV3wMkH8M20o8ULPUHD8h9zYMK3Kcr1BO2gblyQQ=
+github.com/dnb-org/blocks/bootstrap5 v1.0.37/go.mod h1:2156FGkGe0QJlHeEpamZV56V9b4zVni37U8BQDza/JY=
+github.com/dnb-org/components/auditor v0.0.0-20210714122710-42644fcc3b15/go.mod h1:lc2H5PPI6ohpx0LaOP1/fMQtE+YDA7xPZqr24OzmRII=
 github.com/dnb-org/components/functions v1.1.1 h1:thktVTIBpUuOlp7AfZTONXRfKPKZLiRuxZ6Ro0peNQg=
 github.com/dnb-org/components/functions v1.1.1/go.mod h1:+GMAcQaK260wZ6ioNPbQY/ruWdBxFxj9PPw7o5p7eu0=
 github.com/dnb-org/components/opensearch v1.0.12 h1:H8mW7GTCm8Gq2cIcTWNHyhh3mNkqvfAA7URDvrPlMEE=
@@ -20,6 +20,8 @@ github.com/dnb-org/components/social v0.0.9 h1:pgVwLRXArOUwL837lenLAxTqcCrMpGPFr
 github.com/dnb-org/components/social v0.0.9/go.mod h1:dQrMaiXfgEWMAHDTM4omMy74j1qNtBlZchEQTIPD098=
 github.com/dnb-org/debug v1.3.0 h1:w9jTmF/3UHFdyu9nzEmLfhqok2wlV9Ol0E55Wa4yQ9k=
 github.com/dnb-org/debug v1.3.0/go.mod h1:0z/MDK1qgyqHmMM8mSrexsoPSTpJgIsNu3r6nw5zHAU=
+github.com/dnb-org/hooks v1.0.11 h1:NgVhfkY2F+A6SQnW47jEUg5VR6UGVqW8yTynN/eOviU=
+github.com/dnb-org/hooks v1.0.11/go.mod h1:Tz39YfJoDKJEuorz+93zcXtpotNHmWRzyFiB4x9hLls=
 github.com/dnb-org/libraries/bootstrap-icons v1.5.3 h1:YuwtquAsFASJkdSx60YQtadaRRjgEfARAdql512TMAE=
 github.com/dnb-org/libraries/bootstrap-icons v1.5.3/go.mod h1:GV5cqlkUFND73L0BZduppXZslzONfx9Kmj8/qFiUOtc=
 github.com/dnb-org/libraries/bootstrap5/v2 v2.2.1 h1:cCxwduIBPD20SAwgW/877PIFm7EZORdmcT5mc3G1DtM=
