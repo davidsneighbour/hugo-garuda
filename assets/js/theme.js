@@ -1,5 +1,5 @@
 import lazySizes from 'libs/lazysizes';
-import dayjs from  'libs/dayjs/dayjs.min.js';
+import dayjs from  'js/dayjs';
 
 // https://github.com/aFarkas/lazysizes
 // needs to be called explicitly, because webpack can't see into uncompiled hugo
