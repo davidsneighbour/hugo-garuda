@@ -60,7 +60,7 @@
     "@dnb-org/textlint-config": "github:dnb-org/textlint-config",
     "@fullhuman/postcss-purgecss": "4.0.3",
     "autoprefixer": "10.3.1",
-    "commitizen": "4.2.4",
+    "commitizen": "4.3.1",
     "cross-env": "7.0.3",
     "cssnano": "5.0.7",
     "cz-conventional-changelog": "3.3.0",
