@@ -58,7 +58,7 @@
     "@dnb-org/standard-version-config": "github:dnb-org/standard-version-config",
     "@dnb-org/stylelint-config": "github:dnb-org/stylelint-config",
     "@dnb-org/textlint-config": "github:dnb-org/textlint-config",
-    "@fullhuman/postcss-purgecss": "4.0.3",
+    "@fullhuman/postcss-purgecss": "7.0.2",
     "autoprefixer": "10.3.1",
     "commitizen": "4.2.4",
     "cross-env": "7.0.3",
