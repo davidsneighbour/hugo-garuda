@@ -3,7 +3,7 @@
 | :exclamation:  This documentation is work in progress and can change in parts over time.   |
 |----|
 
-See [dnb-org-garuda-template](/davidsneighbour/dnb-org-garuda-template) for an example repo that you can use as a template to work with this theme. You can fork that repo without adding all the revisions to date. Please keep issues related to this template in [this themes repository](/davidsneighbour/dnb-org-garuda/issues).
+See [davidsneighbour-garuda-template](/davidsneighbour/davidsneighbour-garuda-template) for an example repo that you can use as a template to work with this theme. You can fork that repo without adding all the revisions to date. Please keep issues related to this template in [this themes repository](/davidsneighbour/davidsneighbour-garuda/issues).
 
 ## Installation
 
@@ -18,19 +18,19 @@ See [dnb-org-garuda-template](/davidsneighbour/dnb-org-garuda-template) for an e
 ## Setup and update Algolia search
 
 - copy `.env.sample` to `.env`
-- fill in the info from https://www.algolia.com/apps &gt; API keys
-- run `npm install -g atomic-algolia` to install globally 
+- fill in the info from <https://www.algolia.com/apps> &gt; API keys
+- run `npm install -g atomic-algolia` to install globally
 - run `npm run algolia` whenever there are updates to the content
 
 ## Deployment to Netlify
 
-This repository adds a deployment configuration to work with Netlify. 
+This repository adds a deployment configuration to work with Netlify.
 
 ### Set SNYK plugin
 
 Netlify's SNYK plugin checks all pages for possible security issues. If you do not want to use it look for the following lines in your netflix.toml (around line 50) and remove them:
 
-```toml 
+```toml
 # https://github.com/snyk-labs/netlify-plugin-snyk
 [[plugins]]
 package = "netlify-plugin-snyk"

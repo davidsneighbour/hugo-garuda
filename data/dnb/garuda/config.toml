@@ -1,12 +1,12 @@
 # global theme setup data
 # change on your own risk
-hooklink = "https://github.com/dnb-org/garuda/wiki/Content-Hooks"
+hooklink = "https://github.com/davidsneighbour/hugo-garuda/wiki/Content-Hooks"
 
 [plugins]
+esBuildParams = []
 js = [
   "js/libs/jquery.js",
   "js/ready.js",
   "js/progress-indicator.js",
-  "libs/bootstrap/js/bootstrap.bundle.js"
+  "libs/bootstrap/js/bootstrap.bundle.js",
 ]
-esBuildParams = []
