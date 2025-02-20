@@ -49,7 +49,7 @@
     }
   ],
   "devDependencies": {
-    "@commitlint/cli": "13.1.0",
+    "@commitlint/cli": "19.7.1",
     "@commitlint/config-conventional": "13.1.0",
     "@dnb-org/browserslist-config": "github:dnb-org/browserslist-config",
     "@dnb-org/commitlint-config": "github:dnb-org/commitlint-config",
