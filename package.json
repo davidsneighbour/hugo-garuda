@@ -54,7 +54,7 @@
     "@davidsneighbour/browserslist-config": "2025.0.1",
     "@davidsneighbour/commitlint-config": "2025.0.1",
     "@davidsneighbour/eslint-config": "2025.0.1",
-    "@davidsneighbour/remark-config": "2025.0.1",
+    "@davidsneighbour/remark-config": "2025.0.2",
     "@davidsneighbour/release-config": "2025.0.1",
     "@davidsneighbour/stylelint-config": "2025.0.1",
     "@fullhuman/postcss-purgecss": "7.0.2",
