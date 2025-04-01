@@ -56,7 +56,7 @@
     "@davidsneighbour/eslint-config": "2025.0.2",
     "@davidsneighbour/remark-config": "2025.0.2",
     "@davidsneighbour/release-config": "2025.0.2",
-    "@davidsneighbour/stylelint-config": "2025.0.2",
+    "@davidsneighbour/stylelint-config": "2025.1.1",
     "@fullhuman/postcss-purgecss": "7.0.2",
     "autoprefixer": "10.4.20",
     "commitizen": "4.3.1",
