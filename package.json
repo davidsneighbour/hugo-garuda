@@ -52,7 +52,7 @@
     "@commitlint/cli": "19.7.1",
     "@commitlint/config-conventional": "19.7.1",
     "@davidsneighbour/browserslist-config": "2025.0.2",
-    "@davidsneighbour/commitlint-config": "2025.0.2",
+    "@davidsneighbour/commitlint-config": "2025.1.1",
     "@davidsneighbour/eslint-config": "2025.0.2",
     "@davidsneighbour/remark-config": "2025.0.2",
     "@davidsneighbour/release-config": "2025.0.2",
